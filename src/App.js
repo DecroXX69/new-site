@@ -10,6 +10,8 @@ import Gallery from './components/Gallery';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Parteners from './components/Parteners';
+import University from './components/University';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}></Route>
         <Route path='/blogs' element={<Blogs/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
+        <Route path="/university/:id" element={<University />} />
       </Routes>
       <Footer/>
     </div>

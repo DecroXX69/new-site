@@ -163,7 +163,7 @@ const CloseButton = styled.div`
 `;
 
 // NavLinkStyled component styles
-const NavLinkStyled = styled(NavLink)`
+const NavLinkStyled = styled(NavLink).attrs({ activeClassName: 'active' })`
   font-family: 'Poppins', sans-serif; /* Apply Poppins font */
   color: #fff;
   text-decoration: none;
@@ -172,6 +172,10 @@ const NavLinkStyled = styled(NavLink)`
   &:hover {
     color: #f6c298; /* Hover color */
     transition: color 0.2s;
+  }
+
+  &.active {
+    color: #f6c298; /* Active link color */
   }
 `;
 

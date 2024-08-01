@@ -1,0 +1,111 @@
+[
+    {
+        "id": "1",
+        "image" :"images/universities/Amity.jpg",
+        "name": "Amity University Online",
+        "cources": [
+            {
+                "courceName": "Online Masters in Business Administration",
+                "duration": "2 Years",
+                "link" : "https://amityonline.com/lp/mba?utm_source=3&utm_campaign=AUO_Search_online_MBA_IS_DELHI&utm_medium=search&utm_keyword=mba%20correspondence&utsm_adset=correspondence_mba&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8zuQGJYTTXWc3cE85iylnzTYf635nuSnCLBvcPJ1QIBjeramayV1aAaAhhuEALw_wcB"
+            },
+            {
+                "courceName": "Online Bachelors in Commerce",
+                "duration": "2 Years",
+                "link": "https://amityonline.com/bachelor-of-commerce-online"
+            },
+            {
+                "courceName": "Online Bachelor of Computer Application",
+                "duration": "2 Years",
+                "link" : "https://amityonline.com/lp/bca?utm_source=3&utm_medium=Amity_BCA&utm_campaign=AUO_Dom_GEN_ALL_Google_BrSearch_Ind&utm_keyword=amity%20online%20bca&utm_campaignid=20738309476&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745CUba1JjiMIE7KSZIzfbPN1Cvj-l9kJh-sBS98HPc-rHVX0B-IQQSoaAtq3EALw_wcB"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "image": "images/universities/dypatil.jpg",
+        "name": "D.Y.Patil Online",
+        "cources": [
+            {
+                "courceName": "Online MBA in Blockchain Management",
+                "duration": "2 Years",
+                "link" : "https://www.dypatilonline.com/mba-block-chain-management.aspx"
+            },
+            {
+                "courceName": "Online MBA in Hospital Management",
+                "duration": "2 Years",
+                "link": "https://www.dypatilonline.com/onlinemba/pune/?utm_source=unipro&utm_medium=search&utm_campaign=Generic-Pune-Phrase-MBA-DY_Patil-Unipro-2024&utm_matchtype=p&utm_network=g&utm_keyword=online%20mba%20in%20hospital%20management&utm_device=c&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8xNQBt1xo5q8ZqFVIs1KVt3MeTwSdpZwASyf9xRS4W0TFXl0kAX-_oaAkmDEALw_wcB"
+            }
+        ]
+        
+    },
+    {
+        "id": "3",
+        "image": "images/universities/iimkozikode.jpg",
+        "name": "Indian Institute of Management, Kozhikode",
+        "cources": [
+            {
+                "courceName" : "Executive Post Graduate Programme",
+                "duration":"2 Years",
+                "link" : "https://iimk.ac.in/academic-programmes/pgp/courses"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "image": "images/universities/pune.jpg",
+        "name": "Pune University Online",
+        "cources": [
+            {
+                "courceName" : "Post Graduate Diploma in Blockchain Technology",
+                "duration":"10 Months",
+                "link" : "https://admissions.mitwpu.edu.in/Msc-blockchain-tech/?utm_source=Google&utm_medium=srv-gsn-mscblockchain&utm_campaign=generickwds&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8zdkJemmLQCtOZTH5qkm7uDwzWZE3j8EkD-h9eRutlzwYtIQRcZk0saAnRxEALw_wcB"
+            },
+            {
+                "courceName":"Post Graduate Diploma In Blockchain Project Management",
+                "duration": "10 Months",
+                "link" : "https://www.dypatilonline.com/mba-block-chain-management.aspx"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "image": "images/universities/nmims.jpg",
+        "name": "Narsee Monjee Institute of Management Studies Online",
+        "cources": [
+            {
+                "courceName" : "Online Master in Business Administration",
+                "duration":"2 Years",
+                "link" : "https://online.nmims.edu/programs/mba-working-executive/"
+            }
+        ]
+
+    },
+    {
+        "id": "6",
+        "image": "images/universities/executice.webp",
+        "name":"Executive Programs",
+        "cources": [
+            {
+                "courceName" : "Online Masters in Business Administration",
+                "duration":"2 Years",
+                "link":"https://iimk.ac.in/academic-programmes/EPGP-KOCHI/about-mba-kochi-campus"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "image":"images/universities/suresh.avif",
+        "name": "Suresh Gyan Vihar University",
+        "cources": [
+            {
+                "courceName" : "Online Bachelor of Journalism and Mass Communication",
+                "duration":"2 Years",
+                "link" : "https://www.gyanvihar.org/b-a-journalism-and-mass-communication-curriculum"
+            }
+        ]
+    }
+    
+
+
+]

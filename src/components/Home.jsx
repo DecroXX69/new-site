@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
+import { useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import { FaUsers, FaGraduationCap, FaMedal, FaUserTie } from 'react-icons/fa';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import {  ColumnContainer } from './CarouselColumn';  // Importing the new Column component
+import { ColumnContainer } from './CarouselColumn';  // Importing the new Column component
 import { CarouselColumn } from './CarouselColumn';
 import UniversitiesSlider from './UniversitiesSlider';
 import NumberCounter from './NumberCounter';
 import ApprovalsSlider from './ApprovalsSlider';
+import ContactUs from './ContactUs';
+import FAQs from './FAQs';
 
 const MainContainer = styled.div`
   font-family: 'Poppins', sans-serif;
@@ -135,6 +138,7 @@ const HeroContent = styled.div`
 const Home = () => {
   const [backgroundImage, setBackgroundImage] = useState('images/hero/hero1.webp');
   const [currentSlide, setCurrentSlide] = useState(0);
+  const navigate = useNavigate();  // Initialize the useNavigate hook
 
   const sliderSettings = {
     dots: true,
@@ -193,7 +197,6 @@ const Home = () => {
 
   return (
     <MainContainer>
-      <Navbar />
       <HeroSection>
         <HeroSlider {...sliderSettings}>
           <div>
@@ -211,7 +214,7 @@ const Home = () => {
           <div>
             <h1>{heroTexts[currentSlide].header}</h1>
             <p>{heroTexts[currentSlide].subHeader}</p>
-            <button>Get Started</button>
+            <button onClick={() => navigate('/courses')}>Get Started</button>
           </div>
         </HeroContent>
       </HeroSection>
@@ -232,6 +235,10 @@ const Home = () => {
       <NumberCounter/>
 
       <ApprovalsSlider/>
+
+      <ContactUs/>
+
+      <FAQs/>
       
     </MainContainer>
   );

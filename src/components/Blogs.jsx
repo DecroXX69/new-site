@@ -1,9 +1,10 @@
 import React from 'react'
+import PageHeader from './PageHeader'
 
 const Blogs = () => {
   return (
     <div>
-      <h1>Blogs</h1>
+      <PageHeader title="BLOGS" image={"images/hero/hero1.webp"} />
     </div>
   )
 }
