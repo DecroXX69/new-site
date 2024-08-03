@@ -81,7 +81,7 @@ const ServicesPage = () => {
         <MainHeader>OUR 360 DEGREE SERVICES: VALUE PROPOSITION FOR UNIVERSITY</MainHeader>
         <SubHeader>We provide complete white label solution and undertake the following responsibilities:</SubHeader>
         <ImageContainer>
-          <img src="images/services.png" alt="Services" />
+          <img src="images/services.jpg" alt="Services" />
         </ImageContainer>
 
         <HeaderText>LEARNEDGE would be Technology Service Provider for the University</HeaderText>
