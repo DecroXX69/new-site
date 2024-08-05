@@ -11,12 +11,17 @@ import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Parteners from './components/Parteners';
 import University from './components/University';
+import WhatsAppButton from './components/WhatsappButon.jsx';
+import EnquiryPopup from './components/EnquiryPopup.jsx';
+
+
 
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <EnquiryPopup/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
@@ -28,6 +33,8 @@ function App() {
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path="/university/:id" element={<University />} />
       </Routes>
+
+      <WhatsAppButton/>
       <Footer/>
     </div>
   );

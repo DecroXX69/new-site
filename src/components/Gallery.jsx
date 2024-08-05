@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import PageHeader from './PageHeader';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -24,6 +24,12 @@ const GalleryImage = styled(LazyLoadImage)`
 `;
 
 const Gallery = () => {
+
+  useEffect(() => {
+    document.title = "Learnedge - Gallery";
+    window.scrollTo(0, 0);
+  }, []);
+  
   const images = [
     "images/Gallery/rot1.jpeg",
     "images/Gallery/rot2.jpeg",
@@ -34,6 +40,7 @@ const Gallery = () => {
   ];
 
   return (
+
     <div>
       <PageHeader title="GALLERY" image="images/hero/hero1.webp" />
       <GalleryContainer>

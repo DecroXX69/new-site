@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { FaDesktop, FaTabletAlt, FaChalkboardTeacher, FaUserFriends } from 'react-icons/fa';
 import { MdOutlineComputer } from 'react-icons/md';
@@ -73,6 +73,11 @@ const ImageContainer = styled.div`
 `;
 
 const ServicesPage = () => {
+
+  useEffect(() => {
+    document.title = "Learnedge - Services";
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <PageHeader title={"SERVICES"} image={"images/hero/hero1.webp"} />

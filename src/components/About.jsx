@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { FaUsers, FaGraduationCap, FaMedal, FaUserTie } from 'react-icons/fa';
 import PageHeader from './PageHeader';
@@ -99,6 +99,13 @@ const ColumnStyled = styled.div`
 `;
 
 const About = () => {
+
+
+  useEffect(() => {
+    document.title = "Learnedge - About";
+    window.scrollTo(0, 0);
+  }, []);
+  
   const columnContents = [
     {
       icon: <FaUsers size={50} />,

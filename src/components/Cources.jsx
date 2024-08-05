@@ -54,7 +54,7 @@ const Button = styled.button`
 
 const Cources = () => {
   useEffect(() => {
-    document.title = "Learnedge - Programs";
+    document.title = "Learnedge - Cources";
     window.scrollTo(0, 0);
   }, []);
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
 
 // Styled Components
@@ -128,19 +128,30 @@ const ImageColumn = styled.div`
 
 // Component
 const ContactUs = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   const handleVideoCall = () => {
-    // Functionality for arranging a video call
-    alert('Video call arranged!');
+    // Open Calendly scheduling for video call
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/your_video_call_link' });
   };
 
   const handleVoiceCall = () => {
-    // Functionality for arranging a voice call
-    alert('Voice call arranged!');
+    // Open Calendly scheduling for voice call
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/your_voice_call_link' });
   };
 
   const handleCallBack = () => {
-    // Functionality for requesting a callback
-    alert('Callback requested!');
+    // Open Calendly scheduling for callback
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/your_callback_link' });
   };
 
   return (

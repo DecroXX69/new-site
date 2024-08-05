@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
 import { useNavigate } from 'react-router-dom';
@@ -136,6 +136,11 @@ const HeroContent = styled.div`
 `;
 
 const Home = () => {
+
+  useEffect(() => {
+    document.title = "Learnedge - Home";
+    window.scrollTo(0, 0);
+  }, []);
   const [backgroundImage, setBackgroundImage] = useState('images/hero/hero1.webp');
   const [currentSlide, setCurrentSlide] = useState(0);
   const navigate = useNavigate();  // Initialize the useNavigate hook
