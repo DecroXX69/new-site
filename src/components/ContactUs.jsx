@@ -157,7 +157,7 @@ const ContactUs = () => {
   return (
     <FormContainer>
       <TextColumn>
-        <h1>Online Distance Education Made Easy! With 24/7 Support.</h1>
+        <h1>Online Distance Education Made Easy!</h1>
         <p>For assistance, call us at:</p>
         <p className="contact-number">+91 86691 66575</p>
         <ButtonContainer>

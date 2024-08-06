@@ -96,16 +96,16 @@ const HeroContent = styled.div`
 
   p {
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 20px;
     color: #777;
 
     @media (max-width: 768px) {
-      font-size: 0.9rem;
+      font-size: 1.1rem;
     }
 
     @media (max-width: 480px) {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
     }
   }
 
@@ -148,11 +148,11 @@ const Home = () => {
   const sliderSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     fade: true,
     cssEase: 'linear',
     beforeChange: (oldIndex, newIndex) => {
@@ -167,10 +167,10 @@ const Home = () => {
       header: "Embark on a journey of success with our renowned programs",
       subHeader: "Unleash Your Potential: Elevate, Excel, Succeed!"
     },
-    {
-      header: "Gain a competitive Edge with our Online Programs",
-      subHeader: "Learnedge is India's fastest-growing educational company that is committed to providing high-quality education to students and professionals!"
-    },
+    // {
+    //   header: "Gain a competitive Edge with our Online Programs",
+    //   subHeader: "Learnedge is India's fastest-growing educational company that is committed to providing high-quality education to students and professionals!"
+    // },
     {
       header: "Transform your future with our flexible online courses",
       subHeader: "Elevate your career with the most prestigious certification and degree programs we have to offer!"
@@ -210,9 +210,9 @@ const Home = () => {
           <div>
             <img src="images/hero/hero2.webp" alt="Hero 2" />
           </div>
-          <div>
+          {/* <div>
             <img src="images/hero/hero3.webp" alt="Hero 3" />
-          </div>
+          </div> */}
         </HeroSlider>
         <HeroOverlay />
         <HeroContent>

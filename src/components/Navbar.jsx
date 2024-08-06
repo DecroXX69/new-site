@@ -225,9 +225,9 @@ const Navbar = () => {
             <li><NavLinkStyled to="/about" onClick={() => setMenuOpen(false)}>ABOUT</NavLinkStyled></li>
             <li><NavLinkStyled to="/courses" onClick={() => setMenuOpen(false)}>COURSES</NavLinkStyled></li>
             <li><NavLinkStyled to="/services" onClick={() => setMenuOpen(false)}>SERVICES</NavLinkStyled></li>
-            <li><NavLinkStyled to="/parteners" onClick={() => setMenuOpen(false)}>PARTENERS</NavLinkStyled></li>
+            {/* <li><NavLinkStyled to="/parteners" onClick={() => setMenuOpen(false)}>PARTENERS</NavLinkStyled></li> */}
             <li><NavLinkStyled to="/gallery" onClick={() => setMenuOpen(false)}>GALLERY</NavLinkStyled></li>
-            <li><NavLinkStyled to="/blogs" onClick={() => setMenuOpen(false)}>BLOGS</NavLinkStyled></li>
+            {/* <li><NavLinkStyled to="/blogs" onClick={() => setMenuOpen(false)}>BLOGS</NavLinkStyled></li> */}
             <li><NavLinkStyled to="/contact" onClick={() => setMenuOpen(false)}>CONTACT</NavLinkStyled></li>
           </ul>
         </Nav>

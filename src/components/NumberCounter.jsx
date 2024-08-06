@@ -83,19 +83,19 @@ const NumberCounter = () => {
       <Container>
         <AnimatedNumber ref={yearRef}>
           <h1 className='h1 text-light'></h1>
-          <h6 className='text-light h6'>years of experience</h6>
+          <h6 className='text-light h6'>Years Of Experience</h6>
         </AnimatedNumber>
         <AnimatedNumber ref={coursesRef}>
           <h1 className='h1 text-light'></h1>
-          <h6 className='text-light h6'>Expert consultants</h6>
+          <h6 className='text-light h6'>Expert Consultants</h6>
         </AnimatedNumber>
         <AnimatedNumber ref={studentsRef}>
           <h1 className='h1 text-light'></h1>
-          <h6 className='text-light h6'>happy students</h6>
+          <h6 className='text-light h6'>Happy Students</h6>
         </AnimatedNumber>
         <AnimatedNumber ref={institutionsRef}>
           <h1 className='h1 text-light'></h1>
-          <h6 className='text-light h6'>partnered institutions</h6>
+          <h6 className='text-light h6'>Partnered Institutions</h6>
         </AnimatedNumber>
       </Container>
     </Wrapper>
