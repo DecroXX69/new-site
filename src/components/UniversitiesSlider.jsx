@@ -8,7 +8,6 @@ const SliderContainer = styled.div`
 position: relative;
 top: -60px;
   padding: 50px 20px;
-  background-color: #f5f5f5;
   text-align: center;
 `;
 

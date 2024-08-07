@@ -220,6 +220,14 @@ const EnquiryPopup = () => {
     }
   }, [showPopup]);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 5000); // Show popup after 10 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer on component unmount
+  }, []);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevData => ({

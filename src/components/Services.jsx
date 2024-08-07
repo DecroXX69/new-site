@@ -80,7 +80,7 @@ const ServicesPage = () => {
   }, []);
   return (
     <div>
-      <PageHeader title={"SERVICES"} image={"images/hero/hero1.webp"} />
+      <PageHeader title={"SERVICES"} image={"images/hero/hero2.webp"} />
 
       <PageContainer>
         <MainHeader>OUR 360 DEGREE SERVICES: VALUE PROPOSITION FOR UNIVERSITY</MainHeader>

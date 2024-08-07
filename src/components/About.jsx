@@ -7,7 +7,6 @@ import OurIntro from './OurIntro';
 
 const WhoWeAreSection = styled.section`
   padding: 40px 20px;
-  background-color: #f4f4f4;
   text-align: center;
 `;
 
@@ -131,7 +130,7 @@ const About = () => {
 
   return (
     <div>
-      <PageHeader title="ABOUT" image={"images/hero/hero1.webp"} />
+      <PageHeader title="ABOUT" image={"images/hero/hero2.webp"} />
       <AboutText />
       <WhoWeAreSection>
         <h2>Who We Are?</h2>

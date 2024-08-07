@@ -50,7 +50,7 @@ const Gallery = () => {
   return (
 
     <div>
-      <PageHeader title="GALLERY" image="images/hero/hero1.webp" />
+      <PageHeader title="GALLERY" image="images/hero/hero2.webp" />
       <GalleryContainer>
         <GalleryGrid>
           {images.map((src, index) => (

@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
 import PageHeader from './PageHeader'
 
-const Parteners = () => {
+const Corporates = () => {
 
   useEffect(() => {
-    document.title = "Learnedge - Parteners";
+    document.title = "Learnedge - Corporates";
     window.scrollTo(0, 0);
   }, []);
   return (
     <div>
-      <PageHeader title="PARTENERS" image={"images/hero/hero2.webp"} />
+      <PageHeader title="CORPORATES" image={"images/hero/hero2.webp"} />
     </div>
   )
 }
 
-export default Parteners
+export default Corporates

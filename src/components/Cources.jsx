@@ -66,7 +66,7 @@ const Cources = () => {
 
   return (
     <MainContainer>
-      <PageHeader title="COURCES" image={"images/hero/hero1.webp"} />
+      <PageHeader title="COURCES" image={"images/hero/hero2.webp"} />
       <Grid>
         {ProgramsData.map((curProgram) => (
           <Card key={curProgram.id}>
