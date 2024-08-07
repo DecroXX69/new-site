@@ -36,6 +36,14 @@ const Gallery = () => {
     "images/Gallery/rot3.jpeg",
     "images/Gallery/rot4.jpg",
     "images/Gallery/rot5.jpg",
+    "images/Gallery/rot6.jpg",
+    "images/Gallery/rot7.jpg",
+    "images/Gallery/rot8.jpg",
+    "images/Gallery/rot9.jpg",
+    "images/Gallery/rot10.jpg",
+    "images/Gallery/rot11.jpg",
+    "images/Gallery/rot12.jpg",
+    
     // Add more image paths as needed
   ];
 
