@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 const SliderContainer = styled.div`
   padding: 50px 20px;
-  background-color: #f5f5f5;
   text-align: center;
 `;
 

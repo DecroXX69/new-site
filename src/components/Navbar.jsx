@@ -179,6 +179,23 @@ const NavLinkStyled = styled(NavLink).attrs({ activeClassName: 'active' })`
   }
 `;
 
+// AnchorStyled component styles
+const AnchorStyled = styled.a`
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.25s;
+
+  &:hover {
+    color: #f6c298; /* Hover color */
+    transition: color 0.2s;
+  }
+
+  &.active {
+    color: #f6c298; /* Active link color */
+  }
+`;
+
 // Navbar component
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -225,9 +242,8 @@ const Navbar = () => {
             <li><NavLinkStyled to="/about" onClick={() => setMenuOpen(false)}>ABOUT</NavLinkStyled></li>
             <li><NavLinkStyled to="/courses" onClick={() => setMenuOpen(false)}>COURSES</NavLinkStyled></li>
             <li><NavLinkStyled to="/services" onClick={() => setMenuOpen(false)}>SERVICES</NavLinkStyled></li>
-            {/* <li><NavLinkStyled to="/parteners" onClick={() => setMenuOpen(false)}>PARTENERS</NavLinkStyled></li> */}
             <li><NavLinkStyled to="/gallery" onClick={() => setMenuOpen(false)}>GALLERY</NavLinkStyled></li>
-            {/* <li><NavLinkStyled to="/blogs" onClick={() => setMenuOpen(false)}>BLOGS</NavLinkStyled></li> */}
+            <li><AnchorStyled href="https://learnedges.com/dcb/">CO-OPERATES</AnchorStyled></li>
             <li><NavLinkStyled to="/contact" onClick={() => setMenuOpen(false)}>CONTACT</NavLinkStyled></li>
           </ul>
         </Nav>

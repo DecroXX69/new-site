@@ -7,7 +7,6 @@ import OurIntro from './OurIntro';
 
 const WhoWeAreSection = styled.section`
   padding: 40px 20px;
-  background-color: #f4f4f4;
   text-align: center;
 `;
 
