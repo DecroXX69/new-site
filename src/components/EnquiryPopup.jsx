@@ -223,7 +223,7 @@ const EnquiryPopup = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 10000); // Show popup after 10 seconds
+    }, 5000); // Show popup after 10 seconds
 
     return () => clearTimeout(timer); // Cleanup the timer on component unmount
   }, []);
