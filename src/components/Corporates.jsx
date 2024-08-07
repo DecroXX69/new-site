@@ -9,7 +9,7 @@ const Corporates = () => {
   }, []);
   return (
     <div>
-      <PageHeader title="CORPORATES" image={"images/hero/hero1.webp"} />
+      <PageHeader title="CORPORATES" image={"images/hero/hero2.webp"} />
     </div>
   )
 }

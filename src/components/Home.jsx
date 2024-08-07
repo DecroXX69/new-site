@@ -36,12 +36,20 @@ const HeroSection = styled.section`
 const HeroSlider = styled(Slider)`
   width: 100%;
   height: 100%;
+
   .slick-slide img {
     width: 100%;
-    height: 100vh; /* Increase the height of the images */
+    height: 100vh;
     object-fit: cover;
   }
+
+  .slick-slide:nth-child(3) img {
+    @media (max-width: 480px) {
+      object-position: 75% center /* Display the right side of the image on smaller screens */
+    }
+  }
 `;
+
 
 const HeroOverlay = styled.div`
   position: absolute;
@@ -167,10 +175,10 @@ const Home = () => {
       header: "Embark on a journey of success with our renowned programs",
       subHeader: "Unleash Your Potential: Elevate, Excel, Succeed!"
     },
-    // {
-    //   header: "Gain a competitive Edge with our Online Programs",
-    //   subHeader: "Learnedge is India's fastest-growing educational company that is committed to providing high-quality education to students and professionals!"
-    // },
+    {
+      header: "Gain a competitive Edge with our Online Programs",
+      subHeader: "Learnedge is India's fastest-growing educational company that is committed to providing high-quality education to students and professionals!"
+    },
     {
       header: "Transform your future with our flexible online courses",
       subHeader: "Elevate your career with the most prestigious certification and degree programs we have to offer!"
@@ -210,9 +218,9 @@ const Home = () => {
           <div>
             <img src="images/hero/hero2.webp" alt="Hero 2" />
           </div>
-          {/* <div>
+          <div>
             <img src="images/hero/hero3.webp" alt="Hero 3" />
-          </div> */}
+          </div>
         </HeroSlider>
         <HeroOverlay />
         <HeroContent>

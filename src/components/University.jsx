@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react'; // Make sure to import useEffect
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import ProgramsData from '../data/ProgramsData.json';
@@ -54,6 +54,15 @@ const CourseLink = styled.a`
 const University = () => {
   const { id } = useParams();
   const university = ProgramsData.find(program => program.id.toString() === id);
+
+  useEffect(() => {
+    if (university) {
+      document.title = `Learnedge - ${university.name}`;
+    } else {
+      document.title = `Learnedge - Universities`;
+    }
+    window.scrollTo(0, 0);
+  }, [university]);
 
   if (!university) {
     return <h2>University not found</h2>;

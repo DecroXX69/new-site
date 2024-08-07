@@ -9,7 +9,7 @@ const Parteners = () => {
   }, []);
   return (
     <div>
-      <PageHeader title="PARTENERS" image={"images/hero/hero1.webp"} />
+      <PageHeader title="PARTENERS" image={"images/hero/hero2.webp"} />
     </div>
   )
 }

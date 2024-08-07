@@ -179,7 +179,7 @@ const Contact = () => {
 
   return (
     <div>
-      <PageHeader title="CONTACT" image={"images/hero/hero1.webp"} />
+      <PageHeader title="CONTACT" image={"images/hero/hero2.webp"} />
 
       <ContactSection>
         <ContactColumn hasBorder>

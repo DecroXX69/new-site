@@ -130,7 +130,7 @@ const About = () => {
 
   return (
     <div>
-      <PageHeader title="ABOUT" image={"images/hero/hero1.webp"} />
+      <PageHeader title="ABOUT" image={"images/hero/hero2.webp"} />
       <AboutText />
       <WhoWeAreSection>
         <h2>Who We Are?</h2>
