@@ -165,7 +165,7 @@ const FooterComponent = () => {
         <FooterContainer>
           <Column>
             <FooterLogo>
-              <img src="images/logo1.jpg" alt="Logo" />
+              <img src="images/learnedges logo.png" alt="Logo" />
             </FooterLogo>
             <div>
                 <p>Learnedge Solutions Pvt. Ltd.</p>

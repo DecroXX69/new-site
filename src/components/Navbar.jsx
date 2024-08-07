@@ -28,10 +28,10 @@ const Container = styled.div`
 // Logo component styles
 const Logo = styled.div`
   img {
-    height: 35px; /* Reduce logo size */
+    height: 45px; /* Reduce logo size */
     
     @media (min-width: 769px) {
-      height: 45px; /* Slightly larger for larger screens */
+      height: 50px; /* Slightly larger for larger screens */
     }
   }
 `;
@@ -206,8 +206,8 @@ const Navbar = () => {
       <Container>
         <Logo>
           <NavLink to="/">
-            <img src="images/logo1.jpg" alt="Logo" />
-            <img src="images/Logo.webp" alt="Logo" />
+            <img src="images/Learnedges.png" alt="Logo" />
+           
           </NavLink>
         </Logo>
         <MenuToggle menuOpen={menuOpen} onClick={toggleMenu}>
