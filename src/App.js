@@ -13,6 +13,8 @@ import Parteners from './components/Parteners';
 import University from './components/University';
 import WhatsAppButton from './components/WhatsappButon.jsx';
 import EnquiryPopup from './components/EnquiryPopup.jsx';
+import Carporates from './components/Corporates.jsx';
+import Corporates from './components/Corporates.jsx';
 
 
 
@@ -29,6 +31,7 @@ function App() {
         <Route path='/services' element={<Services/>}></Route>
         <Route path='/parteners' element={<Parteners/>}></Route>
         <Route path='/gallery' element={<Gallery/>}></Route>
+        <Route path='/corporates' element={<Corporates/>}></Route>
         <Route path='/blogs' element={<Blogs/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path="/university/:id" element={<University />} />

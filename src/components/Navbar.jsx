@@ -243,7 +243,7 @@ const Navbar = () => {
             <li><NavLinkStyled to="/courses" onClick={() => setMenuOpen(false)}>COURSES</NavLinkStyled></li>
             <li><NavLinkStyled to="/services" onClick={() => setMenuOpen(false)}>SERVICES</NavLinkStyled></li>
             <li><NavLinkStyled to="/gallery" onClick={() => setMenuOpen(false)}>GALLERY</NavLinkStyled></li>
-            <li><AnchorStyled href="https://learnedges.com/dcb/">CO-OPERATES</AnchorStyled></li>
+            <li><NavLinkStyled to="/corporates" onClick={() => setMenuOpen(false)}>CORPORATES</NavLinkStyled></li>
             <li><NavLinkStyled to="/contact" onClick={() => setMenuOpen(false)}>CONTACT</NavLinkStyled></li>
           </ul>
         </Nav>
