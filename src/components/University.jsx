@@ -82,7 +82,6 @@ const University = () => {
           </CourseItem>
         ))}
       </CoursesList>
-      <Footer />
     </UniversityContainer>
   );
 };

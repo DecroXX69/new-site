@@ -78,7 +78,6 @@ const Cources = () => {
           </Card>
         ))}
       </Grid>
-      <Footer />
     </MainContainer>
   );
 };
