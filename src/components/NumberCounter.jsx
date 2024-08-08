@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
+position: relative;
+top: -70px;
     
   background-image: url('images/hero1.webp');
   background-size: cover;

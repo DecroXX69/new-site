@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import PageHeader from './PageHeader';
+import FAQs from './FAQs';
 
 const ContactSection = styled.div`
   display: flex;
@@ -265,6 +266,8 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </MapSection>
+
+      <FAQs/>
     </div>
   );
 };
