@@ -20,12 +20,12 @@ const EnquiryButton = styled.button`
 
   @media (max-width: 768px) {
     padding: 8px;
-    font-size: 14px;
+    font-size: 22px;
   }
 
   @media (max-width: 480px) {
     padding: 6px;
-    font-size: 12px;
+    font-size: 18px;
   }
 `;
 
@@ -239,7 +239,7 @@ const EnquiryPopup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('https://formspree.io/f/xqkrjrqq', {
+    const response = await fetch('https://formspree.io/f/xpwardej', {
       method: 'POST',
       'target':'_blank',
       headers: {
