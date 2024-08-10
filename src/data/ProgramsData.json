@@ -7,17 +7,194 @@
             {
                 "courceName": "Online Masters in Business Administration",
                 "duration": "2 Years",
-                "link" : "https://amityonline.com/lp/mba?utm_source=3&utm_campaign=AUO_Search_online_MBA_IS_DELHI&utm_medium=search&utm_keyword=mba%20correspondence&utsm_adset=correspondence_mba&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8zuQGJYTTXWc3cE85iylnzTYf635nuSnCLBvcPJ1QIBjeramayV1aAaAhhuEALw_wcB"
+                "details" : "Empower yourself by giving your career the right boost with Amity’s Online MBA programme. India's first UGC recognized online MBA aims to help learners gain insights on all important concepts, practices, and trends in the subject area. The online MBA is a two-year (4 semesters) programme with specialisations in 12 areas and built-in projects to prepare students for prospective job opportunities.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1",
+                        "syllabus": [
+                            "Accounting for Managers",
+                            "Marketing Management",
+                            "Managerial Economics",
+                            "Statistics for Management",
+                            "Professional communication"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2",
+                        "syllabus": [
+                            "Business Research Methods",
+                            "Financial Management",
+                            "Human Resource Management",
+                            "Conflict Resolution and Management",
+                            "Legal Aspects of Business"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3",
+                        "syllabus": [
+                            "Professional Ethics",
+                            "Strategic Management",
+                            "Minor Project"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4",
+                        "syllabus": [
+                            "Management in Action - Social Economic and Ethical Issues",
+                            "Digital Marketing",
+                            "Major Project"
+                        ]
+                    }
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "10th class certificate (completing 10 years of formal schooling).",
+                          "12th class certificate (completing 12 years of formal schooling).",
+                          "Bachelor’s Degree in any discipline from any recognized university with min.40% aggregate."
+                    ]
+                }
             },
             {
                 "courceName": "Online Bachelors in Commerce",
                 "duration": "2 Years",
-                "link": "https://amityonline.com/bachelor-of-commerce-online"
+                "details" : "Make A Fulfilling Career With India's First UGC Recognized Online B.Com Our Bachelors of Commerce Degree provides you with a strong foundation in business and economics, thereby opening up career opportunities in finance and accounting. Learn from an eminent international faculty and finish your degree online. Adapt to the ever-evolving job market and stay ahead of the curve.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1",
+                        "syllabus": [
+                            "Business Mathematics",
+                            "Financial Accounting",
+                            "Mercantile Law",
+                            "Environmental Studies",
+                            "Business Communication"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2",
+                        "syllabus": [
+                            "Business Mathematics II",
+                            "Financial Accounting II",
+                            "Fundamentals of Corporate Law",
+                            "Macroeconomics",
+                            "Principles of Marketing"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3",
+                        "syllabus": [
+                            "Individual Excellence and Social Dynamic",
+                            "Corporate Accounting I",
+                            "Cost Accounting",
+                            "Direct Tax I",
+                            "Business Statistics"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4",
+                        "syllabus": [
+                            "Corporate Accounting II",
+                            "Direct Tax II"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 5",
+                        "syllabus": [
+                            "Business Organisation",
+                            "Fundamentals of Financial Management",
+                            "Fundamentals of Financial Management"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 6",
+                        "syllabus": [
+                            "Major Project",
+                            "Ethics and Corporate Governance"
+                        ]
+                    }
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "10th class certificate (completing 10 years of formal schooling).",
+                          "12th class certificate (completing 12 years of formal schooling).",
+                          "10+2 passed students or aspirants seeking a career in the area of Finance and Accounting."
+                    
+
+
+                    ]
+                }
+                
             },
             {
                 "courceName": "Online Bachelor of Computer Application",
                 "duration": "2 Years",
-                "link" : "https://amityonline.com/lp/bca?utm_source=3&utm_medium=Amity_BCA&utm_campaign=AUO_Dom_GEN_ALL_Google_BrSearch_Ind&utm_keyword=amity%20online%20bca&utm_campaignid=20738309476&gad_source=1&gclid=Cj0KCQjwlZixBhCoARIsAIC745CUba1JjiMIE7KSZIzfbPN1Cvj-l9kJh-sBS98HPc-rHVX0B-IQQSoaAtq3EALw_wcB"
+                "details" : "Master programming through India's first UGC recognized online Bachelor of Computer Applications program. A Bachelor of Computer Applications program with a specialization in Software Engineering focuses on blending core computer science concepts with practical software development skills. Students begin with foundational courses covering programming languages, data structures, algorithms, and computer architecture. Then, they dive into specialized software engineering topics like development methodologies, software design, testing, and project management. By the end of the program, graduates are well-prepared for careers as software engineers, developers, or analysts. They possess the technical skills and practical experience needed to design, develop, and maintain software systems effectively, meeting the demands of the ever-evolving tech industry.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1",
+                        "syllabus": [
+                            "Basic Mathematics- I",
+                            "Business Communication",
+                            "Computer and Information Technology",
+                            "Human Computer Interaction",
+                            "Programming in C"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2",
+                        "syllabus": [
+                            "Data Structures using C",
+                            "Environmental Studies",
+                            "Individual Excellence and Social Dynamic",
+                            "Operating System Concepts",
+                            "Software Engineering and Modeling"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3",
+                        "syllabus": [
+                            "Introduction to Database Management System",
+                            "Computational Statistics",
+                            "Green computing",
+                            "Network Basics",
+                            "Object Oriented Programming using Java"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4",
+                        "syllabus": [
+                            "Unix Operating System and Shell Programming",
+                            "Python Programming",
+                            "Getting started with Java Programming",
+                            "Java Database Programming",
+                            "Developing Web Application"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 5",
+                        "syllabus": [
+                            "Introduction to Artificial Intelligence",
+                            "Fundamentals of Ecommerce",
+                            "Professional Ethics",
+                            "Getting Cloud Ready",
+                            "DevOps Principles, Practices and Tools with Cloud"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 6",
+                        "syllabus": [
+                            "Major Project",
+                            "Planning for a project",
+                            "Cloud (AWS) based Application Development with DevOps",
+                            "Apply Agile principles and develop a project"
+                        ]
+                    }
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "10th class certificate (completing 10 years of formal schooling).",
+                          "12th class certificate (completing 12 years of formal schooling)."
+                    ]
+                }
             }
         ]
     },
