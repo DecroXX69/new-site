@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const SliderContainer = styled.div`
 position: relative;
-top: -60px;
+top: -100px;
   padding: 50px 20px;
   text-align: center;
 `;
@@ -22,7 +22,13 @@ const LogoSlider = styled(Slider)`
   .slick-slide img {
     margin: 0 auto; /* Center the images */
     max-height: 100px; /* Limit the height of the logos */
+
+    @media (max-width: 480px) {
+      max-height:140px;
+    }
   }
+
+ 
 
   .slick-prev,
   .slick-next {

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
 import { useNavigate } from 'react-router-dom';
-import Navbar from './Navbar';
 import { FaUsers, FaGraduationCap, FaMedal, FaUserTie } from 'react-icons/fa';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -12,7 +11,6 @@ import UniversitiesSlider from './UniversitiesSlider';
 import NumberCounter from './NumberCounter';
 import ApprovalsSlider from './ApprovalsSlider';
 import ContactUs from './ContactUs';
-import FAQs from './FAQs';
 
 const MainContainer = styled.div`
   font-family: 'Poppins', sans-serif;
@@ -57,7 +55,7 @@ const HeroOverlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7); /* Overlay background color */
+  background: rgba(0, 0, 0, 0.4); /* Overlay background color */
   z-index: 1;
 `;
 
@@ -104,16 +102,16 @@ const HeroContent = styled.div`
 
   p {
     font-family: "Poppins", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
-    color: #777;
+    color: white;
 
     @media (max-width: 768px) {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
 
     @media (max-width: 480px) {
-      font-size: 0.9rem;
+      font-size: 1.1rem;
     }
   }
 
@@ -180,7 +178,7 @@ const Home = () => {
       subHeader: "Learnedge is India's fastest-growing educational company that is committed to providing high-quality education to students and professionals!"
     },
     {
-      header: "Transform your future with our flexible online courses",
+      header: "Join India's Top Rated IIM's Executive and Degree Programs",
       subHeader: "Elevate your career with the most prestigious certification and degree programs we have to offer!"
     }
   ];
@@ -251,7 +249,7 @@ const Home = () => {
 
       <ContactUs/>
 
-      <FAQs/>
+
       
     </MainContainer>
   );

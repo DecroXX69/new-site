@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'; // Make sure to import useEffect
-import { useParams } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom'; // Import Link here
 import styled from 'styled-components';
 import ProgramsData from '../data/ProgramsData.json';
 import Footer from './Footer';
@@ -41,7 +41,7 @@ const CourseItem = styled.li`
   border-radius: 5px;
 `;
 
-const CourseLink = styled.a`
+const CourseLink = styled(Link)` // Use Link here
   display: inline-block;
   padding: 8px 15px;
   background-color: #253457;
@@ -78,11 +78,12 @@ const University = () => {
           <CourseItem key={index}>
             <h3>{course.courceName}</h3>
             <p>Duration: {course.duration}</p>
-            <CourseLink href={course.link} target="_blank">View Program</CourseLink>
+            <CourseLink to={`/university/${id}/course/${index}`}>
+              View Program
+            </CourseLink>
           </CourseItem>
         ))}
       </CoursesList>
-      <Footer />
     </UniversityContainer>
   );
 };

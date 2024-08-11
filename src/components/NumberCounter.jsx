@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
+position: relative;
+top: -70px;
     
   background-image: url('images/hero1.webp');
   background-size: cover;
@@ -52,7 +54,7 @@ const NumberCounter = () => {
     entries.forEach(entry => {
       if (entry.isIntersecting && !animationStarted) {
         animateNumber(yearRef, 40, 5000);
-        animateNumber(coursesRef, 7, 5000);
+        animateNumber(coursesRef, 15, 5000);
         animateNumber(studentsRef, 1000, 5000);
         animateNumber(institutionsRef, 10, 5000);
         setAnimationStarted(true);

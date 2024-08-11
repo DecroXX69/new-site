@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import PageHeader from './PageHeader';
+import FAQs from './FAQs';
 
 const ContactSection = styled.div`
   display: flex;
@@ -154,7 +155,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('https://formspree.io/f/xqkrjrqq', {
+    const response = await fetch('https://formspree.io/f/xgvwykbz', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -265,6 +266,8 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </MapSection>
+
+      <FAQs/>
     </div>
   );
 };

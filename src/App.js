@@ -15,6 +15,7 @@ import WhatsAppButton from './components/WhatsappButon.jsx';
 import EnquiryPopup from './components/EnquiryPopup.jsx';
 import Carporates from './components/Corporates.jsx';
 import Corporates from './components/Corporates.jsx';
+import CourseDetails from './components/CourceDetails.jsx';
 
 
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
         <Route path="/university/:id" element={<University />} />
+        <Route path="/university/:id/course/:courseId" element={<CourseDetails />} />
       </Routes>
 
       <WhatsAppButton/>

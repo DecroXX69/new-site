@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 // Styled Components
 const FormContainer = styled.div`
+position: relative;
+top: -10px;
   display: flex;
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
   justify-content: space-between;
@@ -131,6 +133,9 @@ const ContactUs = () => {
     const script = document.createElement('script');
     script.src = "https://assets.calendly.com/assets/external/widget.js";
     script.async = true;
+    script.onload = () => {
+      console.log('Calendly script loaded');
+    };
     document.body.appendChild(script);
 
     return () => {
@@ -139,19 +144,17 @@ const ContactUs = () => {
   }, []);
 
   const handleVideoCall = () => {
-    // Open Calendly scheduling for video call
-    window.Calendly.initPopupWidget({ url: 'https://calendly.com/your_video_call_link' });
+    window.location.href = 'https://calendly.com/bhaskar-learnedges/30min';
   };
-
+  
   const handleVoiceCall = () => {
-    // Open Calendly scheduling for voice call
-    window.Calendly.initPopupWidget({ url: 'https://calendly.com/your_voice_call_link' });
+    window.location.href = 'https://calendly.com/bhaskar-learnedges/voice-call-schedule';
   };
-
+  
   const handleCallBack = () => {
-    // Open Calendly scheduling for callback
-    window.Calendly.initPopupWidget({ url: 'https://calendly.com/your_callback_link' });
+    window.location.href = 'https://calendly.com/bhaskar-learnedges/voice-call-schedule';
   };
+  
 
   return (
     <FormContainer>
@@ -171,5 +174,6 @@ const ContactUs = () => {
     </FormContainer>
   );
 };
+
 
 export default ContactUs;
