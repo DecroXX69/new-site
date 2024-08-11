@@ -8,7 +8,8 @@
                 "courceName": "Online Masters in Business Administration",
                 "duration": "2 Years",
                 "details" : "Empower yourself by giving your career the right boost with Amity’s Online MBA programme. India's first UGC recognized online MBA aims to help learners gain insights on all important concepts, practices, and trends in the subject area. The online MBA is a two-year (4 semesters) programme with specialisations in 12 areas and built-in projects to prepare students for prospective job opportunities.",
-                "programStructure":[
+                "fees" : "₹1,99,000",
+               "programStructure":[
                     {
                         "sem": "Semester 1",
                         "syllabus": [
@@ -58,6 +59,7 @@
                 "courceName": "Online Bachelors in Commerce",
                 "duration": "2 Years",
                 "details" : "Make A Fulfilling Career With India's First UGC Recognized Online B.Com Our Bachelors of Commerce Degree provides you with a strong foundation in business and economics, thereby opening up career opportunities in finance and accounting. Learn from an eminent international faculty and finish your degree online. Adapt to the ever-evolving job market and stay ahead of the curve.",
+                "fees" : "₹99,000",
                 "programStructure":[
                     {
                         "sem": "Semester 1",
@@ -128,6 +130,7 @@
                 "courceName": "Online Bachelor of Computer Application",
                 "duration": "2 Years",
                 "details" : "Master programming through India's first UGC recognized online Bachelor of Computer Applications program. A Bachelor of Computer Applications program with a specialization in Software Engineering focuses on blending core computer science concepts with practical software development skills. Students begin with foundational courses covering programming languages, data structures, algorithms, and computer architecture. Then, they dive into specialized software engineering topics like development methodologies, software design, testing, and project management. By the end of the program, graduates are well-prepared for careers as software engineers, developers, or analysts. They possess the technical skills and practical experience needed to design, develop, and maintain software systems effectively, meeting the demands of the ever-evolving tech industry.",
+                "fees":"₹1,50,000",
                 "programStructure":[
                     {
                         "sem": "Semester 1",
@@ -207,6 +210,7 @@
                 "courceName": "Online MBA in Blockchain Management",
                 "duration": "2 Years",
                 "details" : "In basic terms, a blockchain is a distributed digital log of transactions that is replicated throughout the network of connected computer systems. A blockchain acts as a digital database, storing data electronically. The principal use of blockchains is in cryptocurrency systems like Bitcoin, where they are essential for keeping a safe, decentralized record of transactions. One can use blockchain technology to make system manipulation, hacking, and cheating more difficult or impossible. Businesses can decrease transaction costs and use external resources just as easily as internal ones by using MBAs in blockchain management. Numerous fields are affected, including accounting, capital investment, sales and marketing, contract negotiation and enforcement, and marketing.",
+                "fees":"₹1,69,200",
                 "programStructure":[
                     {
                         "sem": "Semester 1",
@@ -271,7 +275,8 @@
                 "courceName": "Online MBA in Hospital Management",
                 "duration": "2 Years",
                 "details" : "MBA in Hospital Administration and Health Care Management is a growing and preferable management specialisation for students who want to advance their knowledge about complex healthcare and hospital administration. The DY Patil's Online MBA in Hospital Administration assists the learner in growing their career in health systems with proficiency to attain success in the arena of healthcare. The course will prepare learners to handle hospital finances, operations, supply & inventory, healthcare systems and policies. Additionally, you will also develop problem-solving abilities and decision-making capabilities in the hospital industry essential for good administration.",
-                "programStructure":[
+                "fees":"₹1,69,200",
+               "programStructure":[
                     {
                         "sem": "Semester 1",
                         "syllabus": [
@@ -336,6 +341,7 @@
                 "courceName" : "Executive Post Graduate Programme",
                 "duration":"2 Years",
                 "details" : "PGP is a two-year, six-term programme. The first-year courses (term I to III) are aimed at building the foundations of the PGP. Hence, all students are required to complete all the first-year courses successfully.  These courses are designed to provide the basic conceptual knowledge and analytical tools in different disciplines and functional areas of management. Uniquely, the first-year curriculum also consists of courses that aim at inculcating a sense of ethical consciousness and social responsibility. The first-year core curriculum is compulsory, and the list of various courses is as follows:",
+                "fees":"",
                 "programStructure":[
                     {
                         "sem": "Term 1",
@@ -391,13 +397,12 @@
         "cources": [
             {
                 "courceName" : "Post Graduate Diploma in Blockchain Technology",
-                "duration":"10 Months",
-                "link" : "https://admissions.mitwpu.edu.in/Msc-blockchain-tech/?utm_source=Google&utm_medium=srv-gsn-mscblockchain&utm_campaign=generickwds&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8zdkJemmLQCtOZTH5qkm7uDwzWZE3j8EkD-h9eRutlzwYtIQRcZk0saAnRxEALw_wcB"
-            },
+                "duration":"10 Months"            },
             {
                 "courceName":"Post Graduate Diploma In Blockchain Project Management",
                 "duration": "10 Months",
-                "details": "The Most Trusted University, Ranked #2 in Best University in India Savitribai Phule Pune University, one of the premier universities in India, is positioned in the North-western part of Pune city. It occupies an area of about 411 acres. It was established on 10th February, 1949 under the Poona University Act. The university houses 46 academic departments. It is popularly known as the 'Oxford of the East'. It has about 307 recognized research institutes and 612 affiliated colleges offering graduate and under-graduate courses.The university attracts many foreign students due to its excellent facilities. It offers good accommodation facility. There is a provision of hostel for the students. There is a well-stocked library containing plenty of books regarding various subjects. The university offers different scholarships to the students."
+                "details": "The Most Trusted University, Ranked #2 in Best University in India Savitribai Phule Pune University, one of the premier universities in India, is positioned in the North-western part of Pune city. It occupies an area of about 411 acres. It was established on 10th February, 1949 under the Poona University Act. The university houses 46 academic departments. It is popularly known as the 'Oxford of the East'. It has about 307 recognized research institutes and 612 affiliated colleges offering graduate and under-graduate courses.The university attracts many foreign students due to its excellent facilities. It offers good accommodation facility. There is a provision of hostel for the students. There is a well-stocked library containing plenty of books regarding various subjects. The university offers different scholarships to the students.",
+                "fees":"₹1,29,000"
     
             }
         ]
@@ -411,6 +416,7 @@
                 "courceName" : "Online Master in Business Administration",
                 "duration":"2 Years",
                 "details" : "The MBA Program spans over two years, designed to provide an extensive exploration of theoretical principles and functional domains within the field of Management.The curriculum comprises a varied range of courses that facilitate a thorough examination of fundamental concepts, established practices, and emerging trends within the designated subject area. The program begins with foundational courses aimed at establishing a strong understanding of essential business concepts.The MBA program offers a diverse range of electives, allowing students to specialize in their area of interest. There are five electives available for selection: Business, Marketing, Finance, Human Resource, Operation & Data Science.",
+                "fees":"₹4,00,000",
                 "programStructure":[
                     {
                         "sem": "Semester 1",
@@ -476,8 +482,7 @@
         "cources": [
             {
                 "courceName" : "Online Masters in Business Administration",
-                "duration":"2 Years",
-                "link":"https://iimk.ac.in/academic-programmes/EPGP-KOCHI/about-mba-kochi-campus"
+                "duration":"2 Years"
             }
         ]
     },

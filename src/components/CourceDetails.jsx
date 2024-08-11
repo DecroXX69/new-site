@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProgramsData from '../data/ProgramsData.json';
+import FAQs from './FAQs';
 
 const CourseContainer = styled.div`
   font-family: 'Poppins', sans-serif;
@@ -109,6 +110,16 @@ const EligibilityItem = styled.li`
   margin-bottom: 10px;
 `;
 
+const CourseFees = styled.div`
+  margin-top: 30px;
+  background-color: #e7f3ff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #253457;
+`;
+
 const BackLink = styled(Link)`
   display: block;
   margin-top: 40px;
@@ -152,6 +163,7 @@ const CourseDetails = () => {
         <p>Duration: {course.duration}</p>
         <p>{course.details}</p>
       </ProgramDetails>
+      
       {course.programStructure && course.programStructure.length > 0 && (
         <ProgramStructure>
           <h2>Programme Structure</h2>
@@ -185,7 +197,14 @@ const CourseDetails = () => {
           </EligibilityList>
         </EligibilitySection>
       )}
+      {course.fees && (
+        <CourseFees>
+          <p>Course Fees: {course.fees}</p>
+        </CourseFees>
+      )}
       <BackLink to={`/university/${id}`}>Back to University</BackLink>
+
+      <FAQs/>
     </CourseContainer>
   );
 };
