@@ -206,15 +206,126 @@
             {
                 "courceName": "Online MBA in Blockchain Management",
                 "duration": "2 Years",
-                "link" : "https://www.dypatilonline.com/mba-block-chain-management.aspx"
+                "details" : "In basic terms, a blockchain is a distributed digital log of transactions that is replicated throughout the network of connected computer systems. A blockchain acts as a digital database, storing data electronically. The principal use of blockchains is in cryptocurrency systems like Bitcoin, where they are essential for keeping a safe, decentralized record of transactions. One can use blockchain technology to make system manipulation, hacking, and cheating more difficult or impossible. Businesses can decrease transaction costs and use external resources just as easily as internal ones by using MBAs in blockchain management. Numerous fields are affected, including accounting, capital investment, sales and marketing, contract negotiation and enforcement, and marketing.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1",
+                        "syllabus": [
+                            "Principles & Practices of Management",
+                            "Organisational Behaviour",
+                            "Management Accounting",
+                            "Managerial Economics",
+                            "Business Communication",
+                            "Research Methodology",
+                            "Environment Awareness and Disaster Management"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2",
+                        "syllabus": [
+                            "Human Resource Management",
+                            "Marketing Management",
+                            "Financial Management",
+                            "Operations Management",
+                            "Management Information System",
+                            "Strategic Management & Business Policy",
+                            "Entrepreneurship Development"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3",
+                        "syllabus": [
+                            "Basics of Blockchain Technology",
+                            "Blockchain Technology and Management",
+                            "Cryptography and Information Security",
+                            "Cloud Infrastructure and Services",
+                            "Statistics & Quantitative Techniques",
+                            "Blockchain and FinTech",
+                            "Generic Elective-I",
+                            "Note: For Generic Elective-I course students can select any one of the following courses",
+                            "Digital Marketing",
+                            "Business English"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4",
+                        "syllabus": [
+                            "Enterprise Blockchain Applications & Hyperledger",
+                            "Design and Development of Blockchain Applications",
+                            "Generic Elective-II",
+                            "Project Work Report",
+                            "Note: For Generic Elective-II course students can select any one of the following courses.",
+                            "Soft Skill",
+                            "Business Ethics and Corporate Governance"
+                        ]
+                    }
+                    
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "Candidates who have completed a Bachelor’s degree with a minimum of 50% marks for the general category (45% for the reserved category) in any discipline can apply for an online MBA program."
+                    ]
+                }
             },
             {
                 "courceName": "Online MBA in Hospital Management",
                 "duration": "2 Years",
-                "link": "https://www.dypatilonline.com/onlinemba/pune/?utm_source=unipro&utm_medium=search&utm_campaign=Generic-Pune-Phrase-MBA-DY_Patil-Unipro-2024&utm_matchtype=p&utm_network=g&utm_keyword=online%20mba%20in%20hospital%20management&utm_device=c&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8xNQBt1xo5q8ZqFVIs1KVt3MeTwSdpZwASyf9xRS4W0TFXl0kAX-_oaAkmDEALw_wcB"
+                "details" : "MBA in Hospital Administration and Health Care Management is a growing and preferable management specialisation for students who want to advance their knowledge about complex healthcare and hospital administration. The DY Patil's Online MBA in Hospital Administration assists the learner in growing their career in health systems with proficiency to attain success in the arena of healthcare. The course will prepare learners to handle hospital finances, operations, supply & inventory, healthcare systems and policies. Additionally, you will also develop problem-solving abilities and decision-making capabilities in the hospital industry essential for good administration.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1",
+                        "syllabus": [
+                            "Principles & Practices of Management",
+                            "Organisational Behaviour",
+                            "Management Accounting",
+                            "Managerial Economics",
+                            "Business Communication",
+                            "Research Methodology",
+                            "Environment Awareness and Disaster Management"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2",
+                        "syllabus": [
+                            "Human Resource Management",
+                            "Marketing Management",
+                            "Financial Management",
+                            "Operations Management",
+                            "Management Information System",
+                            "Strategic Management & Business Policy",
+                            "Entrepreneurship Development"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3",
+                        "syllabus": [
+                            "Indoor and Outdoor Hospital Services",
+                            "Ancillary Hospital Services",
+                            "Legal Aspects of Hospital and Health Management",
+                            "Marketing of Health Care Services",
+                            "Community Health & Hospital Safety & Risk Management",
+                            "Quality Management in Health Care Services",
+                            "Generic Elective-I (Digital Marketing/ Business English)"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4",
+                        "syllabus": [
+                            "Hospital Administration & Biomedical Waste Management",
+                            "Operations Management in Hospitals",
+                            "Generic Elective-II (Soft Skill/ Business Ethics and Corporate Governance)",
+                            "Project Work Report"
+                        ]
+                    }
+                    
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "Candidates who have completed a Bachelor’s degree with a minimum of 50% marks for the general category (45% for the reserved category) in any discipline can apply for an online MBA program."
+                    ]
+                }
             }
-        ]
-        
+        ]        
     },
     {
         "id": "3",
@@ -224,7 +335,52 @@
             {
                 "courceName" : "Executive Post Graduate Programme",
                 "duration":"2 Years",
-                "link" : "https://iimk.ac.in/academic-programmes/pgp/courses"
+                "details" : "PGP is a two-year, six-term programme. The first-year courses (term I to III) are aimed at building the foundations of the PGP. Hence, all students are required to complete all the first-year courses successfully.  These courses are designed to provide the basic conceptual knowledge and analytical tools in different disciplines and functional areas of management. Uniquely, the first-year curriculum also consists of courses that aim at inculcating a sense of ethical consciousness and social responsibility. The first-year core curriculum is compulsory, and the list of various courses is as follows:",
+                "programStructure":[
+                    {
+                        "sem": "Term 1",
+                        "syllabus": [
+                            "Organization and Market Economics",
+                            "Organization Behaviour",
+                            "Financial Accounting",
+                            "Data Analysis",
+                            "Business Communication",
+                            "Marketing Management",
+                            "Financial Markets and Instruments"
+                        ]
+                    },
+                    {
+                        "sem": "Term 2",
+                        "syllabus": [
+                            "Optimization with Spreadsheets",
+                            "Economic Environment",
+                            "Cost and Management Accounting",
+                            "Human Resource Management",
+                            "Information Systems",
+                            "Corporate Finance",
+                            "Legal and Ethical Perspectives for Managers"
+                        ]
+                    },
+                    {
+                        "sem": "Term 3",
+                        "syllabus": [
+                            "Strategic Management",
+                            "Leadership and Change Management",
+                            "Business Models for Digital Economy",
+                            "Operations Management",
+                            "Innovation and Design Thinking",
+                            "Scientific Enquiry for Social Sciences",
+                            "Society and Business",
+                            "Sustainability and Business"
+                        ]
+                    }
+                    
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "The admission to the programme is through a rigorous and internationally acclaimed admission test (CAT) with average selection rate of less than one in hundred candidates. Leading Indian and foreign companies visit the Institute to participate in campus placement programme."
+                    ]
+                }
             }
         ]
     },
@@ -241,7 +397,8 @@
             {
                 "courceName":"Post Graduate Diploma In Blockchain Project Management",
                 "duration": "10 Months",
-                "link" : "https://www.dypatilonline.com/mba-block-chain-management.aspx"
+                "details": "The Most Trusted University, Ranked #2 in Best University in India Savitribai Phule Pune University, one of the premier universities in India, is positioned in the North-western part of Pune city. It occupies an area of about 411 acres. It was established on 10th February, 1949 under the Poona University Act. The university houses 46 academic departments. It is popularly known as the 'Oxford of the East'. It has about 307 recognized research institutes and 612 affiliated colleges offering graduate and under-graduate courses.The university attracts many foreign students due to its excellent facilities. It offers good accommodation facility. There is a provision of hostel for the students. There is a well-stocked library containing plenty of books regarding various subjects. The university offers different scholarships to the students."
+    
             }
         ]
     },
@@ -253,7 +410,61 @@
             {
                 "courceName" : "Online Master in Business Administration",
                 "duration":"2 Years",
-                "link" : "https://online.nmims.edu/programs/mba-working-executive/"
+                "details" : "The MBA Program spans over two years, designed to provide an extensive exploration of theoretical principles and functional domains within the field of Management.The curriculum comprises a varied range of courses that facilitate a thorough examination of fundamental concepts, established practices, and emerging trends within the designated subject area. The program begins with foundational courses aimed at establishing a strong understanding of essential business concepts.The MBA program offers a diverse range of electives, allowing students to specialize in their area of interest. There are five electives available for selection: Business, Marketing, Finance, Human Resource, Operation & Data Science.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1",
+                        "syllabus": [
+                            "Business Communication",
+                            "Financial Accounting",
+                            "Micro Economics & Macro Economics",
+                            "Organizational Behavior",
+                            "Marketing Management",
+                            "Quantitive Methods -1"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2",
+                        "syllabus": [
+                            "Cost & Management Accounting",
+                            "Human Resource Management",
+                            "Strategic Management",
+                            "Business Analytics",
+                            "Legal Aspect of Business",
+                            "Operations Management"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3",
+                        "syllabus": [
+                            "Corporate Finance",
+                            "Research Methodology",
+                            "Project Part 1",
+                            "Elective 1",
+                            "Elective 2",
+                            "Elective 3",
+                            "Elective 4"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4",
+                        "syllabus": [
+                            "Indian Ethos & Ethics",
+                            "Corporate Sustainability",
+                            "International Business",
+                            "Project Part 2",
+                            "Elective 5",
+                            "Elective 6",
+                            "Elective 7"
+                        ]
+                    }
+                    
+                ],
+                "eligibility": {
+                    "forIndianStudents": [
+                          "Bachelor’s Degree in any discipline from recognised University or an equivalent degree recognised by Association of Indian Universities (AIU) with minimum 50% marks at Graduation Level (45% for SC/ST/OBC/PwD)."
+                    ]
+                }
             }
         ]
 
@@ -278,7 +489,104 @@
             {
                 "courceName" : "Online Bachelor of Journalism and Mass Communication",
                 "duration":"2 Years",
-                "link" : "https://www.gyanvihar.org/b-a-journalism-and-mass-communication-curriculum"
+                "details" : "The Suresh Gyan Vihar University, Jaipur is a renowned University, established by an Act of State Legislature in the State of Rajasthan by the Suresh Gyan Vihar University, Jaipur Act, 2008 (Act No. 16 of 2008). The University is ranked by NIRF in the Rank-Band of 151-200 and School of Pharmacy received the ranking of 59 for the year 2023. It is due to the consistent effort of ensuring quality and ethics in our delivery that the SGVU has been granted an 'A+' grade accreditation by NAAC, achieving a score of 3.32 out of 4. Furthermore, the university's agriculture program and college have received accreditation from ICAR for five years. Based in Jaipur, it is also one of the only few research-driven Universities in Rajasthan with DSIR-SIRO recognition. Other major program approvals includes PCI, UGC-DEB, RCI, BCI, NCTE and AICTE.",
+                "programStructure":[
+                    {
+                        "sem": "Semester 1 (Autumn Semester)",
+                        "syllabus": [
+                            "Communication and Development –I",
+                            "Indian Polity & Issues",
+                            "Computer Applications for Media",
+                            "Introduction to Journalism",
+                            "Computer Applications for Media Lab",
+                            "Language English Lab",
+                            "Project- Writing for Media",
+                            "Project- Design & development for Print Graphic",
+                            "Foundation Course-I",
+                            "English Language I",
+                            "Environment Studies",
+                            "Proficiency in Co-curricular Activities-I"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 2 (Spring Semester)",
+                        "syllabus": [
+                            "Indian Economy & Reforms",
+                            "Communication and Development – II",
+                            "News Reporting & Editing",
+                            "Print Media Trends with Photoshop",
+                            "Print Media Trends with Photoshop Lab",
+                            "News Reporting & Editing Lab",
+                            "Project- Design & development for Web Graphic",
+                            "Project- Story Writing & Storyboarding",
+                            "English Language II",
+                            "Foundation Course II",
+                            "Human Values and Ethics",
+                            "Proficiency in Co-curricular Activities-II"
+
+                        ]
+                    },
+                    {
+                        "sem": "Semester 3 (Autumn Semester)",
+                        "syllabus": [
+                            "Public relations & Corporate Communication",
+                            "Advertising: Concepts & Execution",
+                            "Media Research & Current Affairs",
+                            "Video Editing & Production",
+                            "Computer base 2d animation Lab",
+                            "Advertising: Concepts & Execution Lab",
+                            "Project- Create Program Television Production",
+                            "Project- Creating Advertising & Research",
+                            "Employability Skills II",
+                            "Proficiency in Co-curricular Activities-III"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 4 (Spring Semester)",
+                        "syllabus": [
+                            "Basic of human resource management",
+                            "Radio Journalism & Production",
+                            "Still photography",
+                            "TV News & Programs",
+                            "Visual effect and editing Lab",
+                            "Still photography Lab",
+                            "Project- Writing For Radio",
+                            "Project- Writing For TV News",
+                            "Employability Skills III",
+                            "Proficiency in Co-curricular Activities-IV"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 5 (Autumn Semester)",
+                        "syllabus": [
+                            "Internet and mobile technology",
+                            "Social Media & Online Journalism",
+                            "Event Planning & Management",
+                            "Social Media & Online Journalism Lab",
+                            "Internet and mobile technology Lab",
+                            "Project- UI Design for web",
+                            "Project- Digital Filmmaking",
+                            "Employability Skills IV",
+                            "Proficiency in Co-curricular Activities-V"
+                        ]
+                    },
+                    {
+                        "sem": "Semester 6 (Spring Semester)",
+                        "syllabus": [
+                            "Video Documentary",
+                            "Creative and Non-Fiction Writing",
+                            "Movie making techniques Lab",
+                            "Video Documentary Lab",
+                            "Project- Documentary & Film making",
+                            "Project- Brand Management & Event Management",
+                            "Internship",
+                            "Employability Skills V",
+                            "Proficiency in Co-curricular Activities-VI",
+                            "Proficiency in Co-curricular Activities-V"
+                        ]
+                    }
+                    
+                ]
             }
         ]
     }

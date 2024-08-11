@@ -36,7 +36,7 @@ const BackgroundImage = styled.div`
   background-image: ${({ $imageUrl }) => `url(${process.env.PUBLIC_URL + '/' + $imageUrl})`};
   display: flex;
   align-items: center;
-  justify-content: center; /* Center content horizontally */
+  justify-content: center;
   color: white;
   text-align: center;
   margin-bottom: 40px;
@@ -47,7 +47,7 @@ const UniversityName = styled.h1`
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
-  margin: 0; /* Remove default margin to center properly */
+  margin: 0;
 `;
 
 const ProgramStructure = styled.div`
@@ -91,7 +91,7 @@ const EligibilitySection = styled.div`
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
-  text-align: left; /* Move text to the left */
+  text-align: left;
 `;
 
 const EligibilityHeader = styled.h3`
@@ -152,35 +152,39 @@ const CourseDetails = () => {
         <p>Duration: {course.duration}</p>
         <p>{course.details}</p>
       </ProgramDetails>
-      <ProgramStructure>
-        <h2>Programme Structure</h2>
-        <SemesterGrid>
-          {course.programStructure.map((semester, index) => (
-            <SemesterTable key={index}>
-              <thead>
-                <tr>
-                  <SemesterHeader>{semester.sem}</SemesterHeader>
-                </tr>
-              </thead>
-              <tbody>
-                {semester.syllabus.map((subject, idx) => (
-                  <tr key={idx}>
-                    <SyllabusItem>{subject}</SyllabusItem>
+      {course.programStructure && course.programStructure.length > 0 && (
+        <ProgramStructure>
+          <h2>Programme Structure</h2>
+          <SemesterGrid>
+            {course.programStructure.map((semester, index) => (
+              <SemesterTable key={index}>
+                <thead>
+                  <tr>
+                    <SemesterHeader>{semester.sem}</SemesterHeader>
                   </tr>
-                ))}
-              </tbody>
-            </SemesterTable>
-          ))}
-        </SemesterGrid>
-      </ProgramStructure>
-      <EligibilitySection>
-        <EligibilityHeader>Eligibility</EligibilityHeader>
-        <EligibilityList>
-          {course.eligibility.forIndianStudents.map((item, index) => (
-            <EligibilityItem key={index}>{item}</EligibilityItem>
-          ))}
-        </EligibilityList>
-      </EligibilitySection>
+                </thead>
+                <tbody>
+                  {semester.syllabus.map((subject, idx) => (
+                    <tr key={idx}>
+                      <SyllabusItem>{subject}</SyllabusItem>
+                    </tr>
+                  ))}
+                </tbody>
+              </SemesterTable>
+            ))}
+          </SemesterGrid>
+        </ProgramStructure>
+      )}
+      {course.eligibility && course.eligibility.forIndianStudents && (
+        <EligibilitySection>
+          <EligibilityHeader>Eligibility</EligibilityHeader>
+          <EligibilityList>
+            {course.eligibility.forIndianStudents.map((item, index) => (
+              <EligibilityItem key={index}>{item}</EligibilityItem>
+            ))}
+          </EligibilityList>
+        </EligibilitySection>
+      )}
       <BackLink to={`/university/${id}`}>Back to University</BackLink>
     </CourseContainer>
   );
