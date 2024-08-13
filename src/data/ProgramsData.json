@@ -5,6 +5,7 @@
         "name": "Amity University Online",
         "cources": [
             {
+                "courseType": "Post Graduation",
                 "courceName": "Online Masters in Business Administration",
                 "duration": "2 Years",
                 "details" : "Empower yourself by giving your career the right boost with Amity’s Online MBA programme. India's first UGC recognized online MBA aims to help learners gain insights on all important concepts, practices, and trends in the subject area. The online MBA is a two-year (4 semesters) programme with specialisations in 12 areas and built-in projects to prepare students for prospective job opportunities.",
@@ -56,6 +57,7 @@
                 }
             },
             {
+                "courseType": "Graduation",
                 "courceName": "Online Bachelors in Commerce",
                 "duration": "2 Years",
                 "details" : "Make A Fulfilling Career With India's First UGC Recognized Online B.Com Our Bachelors of Commerce Degree provides you with a strong foundation in business and economics, thereby opening up career opportunities in finance and accounting. Learn from an eminent international faculty and finish your degree online. Adapt to the ever-evolving job market and stay ahead of the curve.",
@@ -127,6 +129,7 @@
                 
             },
             {
+                "courseType": "Graduation",
                 "courceName": "Online Bachelor of Computer Application",
                 "duration": "2 Years",
                 "details" : "Master programming through India's first UGC recognized online Bachelor of Computer Applications program. A Bachelor of Computer Applications program with a specialization in Software Engineering focuses on blending core computer science concepts with practical software development skills. Students begin with foundational courses covering programming languages, data structures, algorithms, and computer architecture. Then, they dive into specialized software engineering topics like development methodologies, software design, testing, and project management. By the end of the program, graduates are well-prepared for careers as software engineers, developers, or analysts. They possess the technical skills and practical experience needed to design, develop, and maintain software systems effectively, meeting the demands of the ever-evolving tech industry.",
@@ -207,6 +210,7 @@
         "name": "D.Y.Patil Online",
         "cources": [
             {
+                "courseType": "Post Graduation",
                 "courceName": "Online MBA in Blockchain Management",
                 "duration": "2 Years",
                 "details" : "In basic terms, a blockchain is a distributed digital log of transactions that is replicated throughout the network of connected computer systems. A blockchain acts as a digital database, storing data electronically. The principal use of blockchains is in cryptocurrency systems like Bitcoin, where they are essential for keeping a safe, decentralized record of transactions. One can use blockchain technology to make system manipulation, hacking, and cheating more difficult or impossible. Businesses can decrease transaction costs and use external resources just as easily as internal ones by using MBAs in blockchain management. Numerous fields are affected, including accounting, capital investment, sales and marketing, contract negotiation and enforcement, and marketing.",
@@ -272,6 +276,7 @@
                 }
             },
             {
+                "courseType": "Post Graduation",
                 "courceName": "Online MBA in Hospital Management",
                 "duration": "2 Years",
                 "details" : "MBA in Hospital Administration and Health Care Management is a growing and preferable management specialisation for students who want to advance their knowledge about complex healthcare and hospital administration. The DY Patil's Online MBA in Hospital Administration assists the learner in growing their career in health systems with proficiency to attain success in the arena of healthcare. The course will prepare learners to handle hospital finances, operations, supply & inventory, healthcare systems and policies. Additionally, you will also develop problem-solving abilities and decision-making capabilities in the hospital industry essential for good administration.",
@@ -338,6 +343,7 @@
         "name": "Indian Institute of Management, Kozhikode",
         "cources": [
             {
+                "courseType": "Executive Program",
                 "courceName" : "Executive Post Graduate Programme",
                 "duration":"2 Years",
                 "details" : "PGP is a two-year, six-term programme. The first-year courses (term I to III) are aimed at building the foundations of the PGP. Hence, all students are required to complete all the first-year courses successfully.  These courses are designed to provide the basic conceptual knowledge and analytical tools in different disciplines and functional areas of management. Uniquely, the first-year curriculum also consists of courses that aim at inculcating a sense of ethical consciousness and social responsibility. The first-year core curriculum is compulsory, and the list of various courses is as follows:",
@@ -396,6 +402,7 @@
         "name": "Pune University Online",
         "cources": [
             {
+                "courseType": "Certification",
                 "courceName" : "Post Graduate Diploma in Blockchain Technology",
                 "duration":"10 Months"            },
             {
@@ -413,6 +420,7 @@
         "name": "Narsee Monjee Institute of Management Studies Online",
         "cources": [
             {
+                "courseType": "Post Graduation",
                 "courceName" : "Online Master in Business Administration",
                 "duration":"2 Years",
                 "details" : "The MBA Program spans over two years, designed to provide an extensive exploration of theoretical principles and functional domains within the field of Management.The curriculum comprises a varied range of courses that facilitate a thorough examination of fundamental concepts, established practices, and emerging trends within the designated subject area. The program begins with foundational courses aimed at establishing a strong understanding of essential business concepts.The MBA program offers a diverse range of electives, allowing students to specialize in their area of interest. There are five electives available for selection: Business, Marketing, Finance, Human Resource, Operation & Data Science.",
@@ -481,6 +489,7 @@
         "name":"Executive Programs",
         "cources": [
             {
+                "courseType": "Executive Program",
                 "courceName" : "Online Masters in Business Administration",
                 "duration":"2 Years"
             }
@@ -492,6 +501,7 @@
         "name": "Suresh Gyan Vihar University",
         "cources": [
             {
+                "courseType": "Graduation",
                 "courceName" : "Online Bachelor of Journalism and Mass Communication",
                 "duration":"2 Years",
                 "details" : "The Suresh Gyan Vihar University, Jaipur is a renowned University, established by an Act of State Legislature in the State of Rajasthan by the Suresh Gyan Vihar University, Jaipur Act, 2008 (Act No. 16 of 2008). The University is ranked by NIRF in the Rank-Band of 151-200 and School of Pharmacy received the ranking of 59 for the year 2023. It is due to the consistent effort of ensuring quality and ethics in our delivery that the SGVU has been granted an 'A+' grade accreditation by NAAC, achieving a score of 3.32 out of 4. Furthermore, the university's agriculture program and college have received accreditation from ICAR for five years. Based in Jaipur, it is also one of the only few research-driven Universities in Rajasthan with DSIR-SIRO recognition. Other major program approvals includes PCI, UGC-DEB, RCI, BCI, NCTE and AICTE.",

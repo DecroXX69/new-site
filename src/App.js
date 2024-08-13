@@ -16,6 +16,7 @@ import EnquiryPopup from './components/EnquiryPopup.jsx';
 import Carporates from './components/Corporates.jsx';
 import Corporates from './components/Corporates.jsx';
 import CourseDetails from './components/CourceDetails.jsx';
+import CoursesTypes from './components/CourseTypes.jsx';
 
 
 
@@ -23,24 +24,30 @@ import CourseDetails from './components/CourceDetails.jsx';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <EnquiryPopup/>
+      <Navbar />
+      <EnquiryPopup />
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/about' element={<About/>}></Route>
-        <Route path='/courses' element={<Cources/>}></Route>
-        <Route path='/services' element={<Services/>}></Route>
-        <Route path='/parteners' element={<Parteners/>}></Route>
-        <Route path='/gallery' element={<Gallery/>}></Route>
-        <Route path='/corporates' element={<Corporates/>}></Route>
-        <Route path='/blogs' element={<Blogs/>}></Route>
-        <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/courses' element={<Cources />}></Route>
+        <Route path='/services' element={<Services />}></Route>
+        <Route path='/parteners' element={<Parteners />}></Route>
+        <Route path='/gallery' element={<Gallery />}></Route>
+        <Route path='/corporates' element={<Corporates />}></Route>
+        <Route path='/blogs' element={<Blogs />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
         <Route path="/university/:id" element={<University />} />
         <Route path="/university/:id/course/:courseId" element={<CourseDetails />} />
+        <Route path="/courses/post-graduation" element={<CoursesTypes courseType="Post Graduation" />} />
+        <Route path="/courses/graduation" element={<CoursesTypes courseType="Graduation" />} />
+        <Route path="/courses/executive-programs" element={<CoursesTypes courseType="Executive Program" />} />
+        <Route path="/courses/certification" element={<CoursesTypes courseType="Certification" />} />
+        <Route path="/course/:id/:courseId" element={<CourseDetails />} />
+        
       </Routes>
 
-      <WhatsAppButton/>
-      <Footer/>
+      <WhatsAppButton />
+      <Footer />
     </div>
   );
 }

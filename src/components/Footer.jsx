@@ -159,75 +159,75 @@ const NewsletterForm = styled.form`
 
 const FooterComponent = () => {
   return (
-    
-      
-      <Footer>
-        <FooterContainer>
-          <Column>
-            <FooterLogo>
-              <img src="images/learnedges logo.png" alt="Logo" />
-            </FooterLogo>
-            <div>
-                <p>Learnedge Solutions Pvt. Ltd.</p>
-                <p>
-                  Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's<br />
-                  Near Shivar Garden, Pimple Saudagar<br />
-                  Pune, Maharashtra<br />
-                  411027
-                </p>
-              </div>
-          </Column>
-          <Column>
-            <h4>Quick Links</h4>
-            <ul>
-              <li><Link className='footer-link' to="/">Home</Link></li>
-              <li><Link className='footer-link' to="/cources">Courses</Link></li>
-              <li><Link className='footer-link' to="/about">About Us</Link></li>
-              <li><Link className='footer-link' to="/blogs">Blogs</Link></li>
-              <li><Link className='footer-link' to="/contact">Contact Us</Link></li>
-            </ul>
-          </Column>
-          <Column>
-            <h4>Courses</h4>
-            <ul>
-              <li><a href="#">Graduation</a></li>
-              <li><a href="#">Post Graduation</a></li>
-              <li><a href="#">Certification</a></li>
-              <li><a href="#">Executive Programs</a></li>
-            </ul>
-          </Column>
-          <Column>
-            <h4>Contact Us</h4>
-            <p>Phone: +91 86691 66575<br />Email: admission@learnedges.com</p>
-            <div className="social-icons">
-              <a target='_blank' href="https://www.linkedin.com/company/learnedge-solutions/">
-                <FaLinkedinIn size={25} />
-              </a>
-              <a target='_blank' href="https://www.instagram.com/learnedge_solutions/">
-                <FaInstagram size={25} />
-              </a>
-              <a target='_blank' href="https://www.facebook.com/NGASCE.AEP.LEARNEDGE">
-                <FaFacebookF size={25} />
-              </a>
-              <a target='_blank' href="https://www.youtube.com/@learnedgesolutions">
-                <FaYoutube size={25} />
-              </a>
-            </div>
-          </Column>
-          <Column>
-            <h4>Newsletter</h4>
-            <p>Stay Updated with our latest news</p>
-            <NewsletterForm>
-              <input type="email" placeholder="Enter your email" />
-              <button type="submit">Subscribe</button>
-            </NewsletterForm>
-          </Column>
-        </FooterContainer>
-        <FooterBottom>
-          <p>&copy; 2024 Learnedge Solutions Pvt. Ltd. All rights reserved.</p>
-        </FooterBottom>
-      </Footer>
-    
+
+
+    <Footer>
+      <FooterContainer>
+        <Column>
+          <FooterLogo>
+            <img src="images/learnedges logo.png" alt="Logo" />
+          </FooterLogo>
+          <div>
+            <p>Learnedge Solutions Pvt. Ltd.</p>
+            <p>
+              Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's<br />
+              Near Shivar Garden, Pimple Saudagar<br />
+              Pune, Maharashtra<br />
+              411027
+            </p>
+          </div>
+        </Column>
+        <Column>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><Link className='footer-link' to="/">Home</Link></li>
+            <li><Link className='footer-link' to="/cources">Courses</Link></li>
+            <li><Link className='footer-link' to="/about">About Us</Link></li>
+            <li><Link className='footer-link' to="/blogs">Blogs</Link></li>
+            <li><Link className='footer-link' to="/contact">Contact Us</Link></li>
+          </ul>
+        </Column>
+        <Column>
+          <h4>Courses</h4>
+          <ul>
+            <li><Link to="/courses/post-graduation">Post Graduation</Link></li>
+            <li><Link to="/courses/graduation">Graduate</Link></li>
+            <li><Link to="/courses/executive-programs">Executive Programs</Link></li>
+            <li><Link to="/courses/certification">Certification</Link></li>
+          </ul>
+        </Column>
+        <Column>
+          <h4>Contact Us</h4>
+          <p>Phone: +91 86691 66575<br />Email: admission@learnedges.com</p>
+          <div className="social-icons">
+            <a target='_blank' href="https://www.linkedin.com/company/learnedge-solutions/">
+              <FaLinkedinIn size={25} />
+            </a>
+            <a target='_blank' href="https://www.instagram.com/learnedge_solutions/">
+              <FaInstagram size={25} />
+            </a>
+            <a target='_blank' href="https://www.facebook.com/NGASCE.AEP.LEARNEDGE">
+              <FaFacebookF size={25} />
+            </a>
+            <a target='_blank' href="https://www.youtube.com/@learnedgesolutions">
+              <FaYoutube size={25} />
+            </a>
+          </div>
+        </Column>
+        <Column>
+          <h4>Newsletter</h4>
+          <p>Stay Updated with our latest news</p>
+          <NewsletterForm>
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+          </NewsletterForm>
+        </Column>
+      </FooterContainer>
+      <FooterBottom>
+        <p>&copy; 2024 Learnedge Solutions Pvt. Ltd. All rights reserved.</p>
+      </FooterBottom>
+    </Footer>
+
   );
 };
 
