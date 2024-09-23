@@ -54,7 +54,7 @@ const Button = styled.button`
 
 const Cources = () => {
   useEffect(() => {
-    document.title = "Learnedge - Cources";
+    document.title = "Learnedge - Courses";
     window.scrollTo(0, 0);
   }, []);
 
@@ -66,7 +66,7 @@ const Cources = () => {
 
   return (
     <MainContainer>
-      <PageHeader title="COURCES" image={"images/hero/hero2.webp"} />
+      <PageHeader title="COURSES" image={"images/hero/hero2.webp"} />
       <Grid>
         {ProgramsData.map((curProgram) => (
           <Card key={curProgram.id}>

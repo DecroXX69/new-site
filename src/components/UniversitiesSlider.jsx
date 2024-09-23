@@ -87,7 +87,7 @@ const UniversitiesSlider = () => {
 
   return (
     <SliderContainer>
-      <Heading>Our Top Online Distance Education University Partners</Heading>
+      <Heading>Our Top Online Education University Partners</Heading>
       <LogoSlider {...sliderSettings}>
         {universities.map((logo, index) => (
           <div key={index}>

@@ -202,7 +202,7 @@ const Home = () => {
     {
       icon: <FaUserTie size={50} />,
       content1: "Career Development Service which prepares students for lifetime career Possibilities.",
-      content2: "Working professionals from over 8000 corporates & 600+ locations of urban and rural India are accelerating their careers with NMIMS Global."
+      content2: "Working professionals from over 8000 corporates & 600+ locations of urban and rural India are accelerating their careers."
     }
   ];
 

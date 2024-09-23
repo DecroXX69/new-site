@@ -35,7 +35,6 @@ const Gallery = () => {
     "images/Gallery/rot2.jpeg",
     "images/Gallery/rot3.jpeg",
     "images/Gallery/rot4.jpg",
-    "images/Gallery/rot5.jpg",
     "images/Gallery/rot6.jpg",
     "images/Gallery/rot7.jpg",
     "images/Gallery/rot8.jpg",
