@@ -56,7 +56,7 @@ const NumberCounter = () => {
         animateNumber(yearRef, 40, 5000);
         animateNumber(coursesRef, 25, 5000);
         animateNumber(studentsRef, 2500, 5000);
-        animateNumber(institutionsRef, 10, 5000);
+        animateNumber(institutionsRef, 15, 5000);
         setAnimationStarted(true);
       }
     });

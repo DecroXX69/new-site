@@ -11,6 +11,8 @@ import UniversitiesSlider from './UniversitiesSlider';
 import NumberCounter from './NumberCounter';
 import ApprovalsSlider from './ApprovalsSlider';
 import ContactUs from './ContactUs';
+import ServicesPage from '../subcomponents/ServicesPage';
+
 
 const MainContainer = styled.div`
   font-family: 'Poppins', sans-serif;
@@ -242,6 +244,8 @@ const Home = () => {
       </ColumnContainer>
 
       <UniversitiesSlider/>
+
+      <ServicesPage/>
 
       <NumberCounter/>
 

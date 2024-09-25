@@ -9,6 +9,7 @@ position: relative;
 top: -100px;
   padding: 50px 20px;
   text-align: center;
+  margin-bottom: -150px;
 `;
 
 const Heading = styled.h2`

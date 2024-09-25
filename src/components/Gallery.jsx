@@ -10,10 +10,29 @@ const GalleryContainer = styled.div`
   padding: 20px;
 `;
 
+const EventSection = styled.div`
+  margin-bottom: 40px; /* Adds spacing between event sections */
+`;
+
+const EventHeader = styled.h2`
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+`;
+
 const GalleryGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust minmax value to control image size */
   gap: 15px; /* Space between images */
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller screen adjustments */
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Further smaller screen adjustments */
+  }
 `;
 
 const GalleryImage = styled(LazyLoadImage)`
@@ -30,37 +49,59 @@ const Gallery = () => {
     window.scrollTo(0, 0);
   }, []);
   
-  const images = [
-    "images/Gallery/rot1.jpeg",
-    "images/Gallery/rot2.jpeg",
-    "images/Gallery/rot3.jpeg",
-    "images/Gallery/rot4.jpg",
-    "images/Gallery/rot6.jpg",
-    "images/Gallery/rot7.jpg",
-    "images/Gallery/rot8.jpg",
-    "images/Gallery/rot9.jpg",
-    "images/Gallery/rot10.jpg",
-    "images/Gallery/rot11.jpg",
-    "images/Gallery/rot12.jpg",
-    
-    // Add more image paths as needed
-  ];
+  // Grouped images by events
+  const events = {
+    "Learnedge Brand Launching Event": [
+      "images/Gallery/rot13.jpeg",
+      "images/Gallery/rot14.jpeg",
+      "images/Gallery/rot15.jpeg",
+      "images/Gallery/rot16.jpeg",
+      "images/Gallery/rot20.jpeg",
+      "images/Gallery/rot21.jpeg",
+      "images/Gallery/rot22.jpeg",
+      "images/Gallery/rot23.jpeg"
+    ],
+    "Office Celebrations": [
+      "images/Gallery/rot17.jpg",
+      "images/Gallery/rot19.jpg",
+      "images/Gallery/rot2.jpeg",
+      "images/Gallery/rot3.jpeg"
+    ],
+    "Special Events": [
+      "images/Gallery/rot10.jpg",
+      "images/Gallery/rot11.jpg",
+      "images/Gallery/rot12.jpg",
+      "images/Gallery/rot18.jpg"
+    ],
+    "Corporate Office": [
+      "images/Gallery/rot9.jpg",
+      "images/Gallery/rot4.jpg",
+      "images/Gallery/rot6.jpg",
+      "images/Gallery/rot7.jpg",
+      "images/Gallery/rot8.jpg"
+    ]
+  };
 
   return (
-
     <div>
       <PageHeader title="GALLERY" image="images/hero/hero2.webp" />
       <GalleryContainer>
-        <GalleryGrid>
-          {images.map((src, index) => (
-            <GalleryImage
-              key={index}
-              src={src}
-              alt={`Gallery Image ${index + 1}`}
-              effect="blur"
-            />
-          ))}
-        </GalleryGrid>
+        {/* Loop through each event and display its images */}
+        {Object.keys(events).map((eventName, index) => (
+          <EventSection key={index}>
+            <EventHeader>{eventName}</EventHeader>
+            <GalleryGrid>
+              {events[eventName].map((src, imgIndex) => (
+                <GalleryImage
+                  key={imgIndex}
+                  src={src}
+                  alt={`${eventName} Image ${imgIndex + 1}`}
+                  effect="blur"
+                />
+              ))}
+            </GalleryGrid>
+          </EventSection>
+        ))}
       </GalleryContainer>
     </div>
   );
