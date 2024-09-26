@@ -87,7 +87,7 @@ const FAQs = () => {
                     </div>
                 </div>
                 <ContactSection>
-                    <h3>Still have questions?</h3>
+                    <h3>Still have Questions?</h3>
                     <p>Feel free to <Link to="/contact" className="contact-link text-primary">contact us</Link> or call us at <a href="tel:+918669166575">+918669166575</a>.</p>
                 </ContactSection>
             </div>

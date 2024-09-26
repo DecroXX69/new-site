@@ -31,6 +31,8 @@ const HeroSection = styled.section`
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1;
+  margin-top: 65px;
+
 `;
 
 const HeroSlider = styled(Slider)`

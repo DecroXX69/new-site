@@ -23,6 +23,13 @@ const partnersData = [
     pose: "Chief Consulting Knowledge Enabler",
     about: "Prof. (Dr.) Tushar Dagade is an Academician, International Awardee, Motivational Speaker, Research Guide, Corporate Trainer and Coach, career counsellor in the last 20 years. He has worked in various capacities such as Group Director, director in various management institutes. He has a forte in the field of education accreditations, academic administration &consultancies in research, teaching-learning, and quality improvement initiatives for or bringing excellence in Academics. In his tenure of 21.6 years, he has been contributed towards the grooming, holistic development of the Ph.D. Scholars and dynamic managers and leaders who are working in top organizations across flora and fauna.",
     image: "images/OurTeam/Tushar.jpg" 
+  },
+  {
+    id: 4,
+    name: "Sachin Itkar",
+    pose: "Advisor",
+    about: "Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration.Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration. He holds five patents to his credit in the area of Pharmaceutical packaging Technology. Written four books on 'Forensic Pharmacy' on 'Pharmaceutical Management' on 'Drug Regulatory Affairs' and on 'Essentials of Clinical Research”. He works as advisor / member of board of companies in India, Israel, USA. He was Advisor to Alliance for US India Business (AUSIB) 2009 to 2012 and was instrumental in organizing first Indo-US Education Conclave.",
+    image: "images/OurTeam/Sachin.jpeg" 
   }
 ];
 

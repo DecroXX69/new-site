@@ -138,6 +138,26 @@ const OfferingIconsContainer = styled.div`
   gap: 20px;
 `;
 
+const ContactSection = styled.div`
+    text-align: center;
+    margin-top: 50px;
+    h3 {
+        font-size: 24px;
+        color: #021f55;
+    }
+    p {
+        font-size: 18px;
+        color: #333;
+    }
+    .contact-link {
+        color: #021f55;
+        text-decoration: none;
+    }
+    .contact-link:hover {
+        text-decoration: underline;
+    }
+`
+
 const Corporates = () => {
   useEffect(() => {
     document.title = "Learnedge - Corporates";
@@ -214,6 +234,11 @@ const Corporates = () => {
           </HeroIcon>
         </OfferingIconsContainer>
       </OfferingSection>
+
+      <ContactSection>
+      <h3>For Corporate Queries</h3>
+      <p>Write Us Mail on <span className='text-primary'>manoj@learnedges.com</span> OR Call on <span className='text-primary'>+91 77383 33543</span></p>
+      </ContactSection>
     </div>
   )
 }

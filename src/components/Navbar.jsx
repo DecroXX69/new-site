@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 // Header component styles
 const Header = styled.header`
-  background-color: ${({ scrolled }) => (scrolled ? 'rgba(0, 0, 0, 0.3)' : 'transparent')};
-  backdrop-filter: ${({ scrolled }) => (scrolled ? 'blur(5px)' : 'none')};
+  background-color: black;
   position: fixed;
   top: 0;
   width: 100%;
@@ -63,13 +62,49 @@ const Nav = styled.nav`
     
     li {
       margin: 10px 0; /* Reduce margin */
+      position: relative; /* Position relative for dropdown */
       padding: 8px 16px; /* Reduce padding */
       font-size: 14px; /* Adjust font size */
-      
-      @media (min-width: 769px) {
-        font-size: 13px; /* Adjust font size for larger screens */
-        margin: 0 15px; /* Adjust margin for larger screens */
-        padding: 0;
+
+      &:hover > a {
+        color: #f6c298; /* Hover color for links */
+      }
+
+      &.dropdown {
+        .dropdown-toggle {
+          cursor: pointer;
+          color: #fff; /* Adjust the color */
+        }
+
+        .dropdown-menu {
+          display: none; 
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: rgba(0, 0, 0, 0.8); /* Dropdown background color */
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            padding: 10px 20px; /* Padding for dropdown items */
+            font-size: 14px; /* Font size for dropdown items */
+          }
+
+          li a {
+            text-decoration: none; /* Remove underline */
+            color: #f6c298; /* Change color */
+            transition: color 0.25s;
+
+            &:hover {
+              color: #fff; /* Change hover color if needed */
+            }
+          }
+        }
+
+        &:hover .dropdown-menu {
+          display: block; /* Show dropdown on hover */
+        }
       }
     }
   }
@@ -90,6 +125,11 @@ const Nav = styled.nav`
       flex-direction: row; /* Display links in a row */
       align-items: center;
       margin: 0;
+
+      li {
+        margin: 0 15px; /* Adjust margin for larger screens */
+        padding: 0; /* Remove padding */
+      }
     }
   }
 `;
@@ -120,14 +160,6 @@ const MenuToggle = styled.div`
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
       background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
       opacity 0.55s ease;
-  }
-
-  span:first-child {
-    transform-origin: 0% 0%;
-  }
-
-  span:nth-last-child(2) {
-    transform-origin: 0% 100%;
   }
 `;
 
@@ -179,23 +211,6 @@ const NavLinkStyled = styled(NavLink).attrs({ activeClassName: 'active' })`
   }
 `;
 
-// AnchorStyled component styles
-const AnchorStyled = styled.a`
-  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.25s;
-
-  &:hover {
-    color: #f6c298; /* Hover color */
-    transition: color 0.2s;
-  }
-
-  &.active {
-    color: #f6c298; /* Active link color */
-  }
-`;
-
 // Navbar component
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -224,7 +239,6 @@ const Navbar = () => {
         <Logo>
           <NavLink to="/">
             <img src="images/Learnedges.png" alt="Logo" />
-           
           </NavLink>
         </Logo>
         <MenuToggle menuOpen={menuOpen} onClick={toggleMenu}>
@@ -240,7 +254,17 @@ const Navbar = () => {
           <ul>
             <li><NavLinkStyled exact to="/" onClick={() => setMenuOpen(false)}>HOME</NavLinkStyled></li>
             <li><NavLinkStyled to="/about" onClick={() => setMenuOpen(false)}>ABOUT</NavLinkStyled></li>
-            <li><NavLinkStyled to="/courses" onClick={() => setMenuOpen(false)}>COURSES</NavLinkStyled></li>
+            <li className="dropdown">
+              <span className="dropdown-toggle" onClick={toggleMenu}>
+                <NavLinkStyled to="#" onClick={() => setMenuOpen(false)}>COURSES</NavLinkStyled>
+              </span>
+              <ul className="dropdown-menu">
+                <li><Link to="/courses/post-graduation" onClick={() => setMenuOpen(false)}>Post Graduation</Link></li>
+                <li><Link to="/courses/graduation" onClick={() => setMenuOpen(false)}>Graduate</Link></li>
+                <li><Link to="/courses/executive-programs" onClick={() => setMenuOpen(false)}>Executive Programs</Link></li>
+                <li><Link to="/courses/corporate-training" onClick={() => setMenuOpen(false)}>Corporate Training</Link></li>
+              </ul>
+            </li>
             <li><NavLinkStyled to="/services" onClick={() => setMenuOpen(false)}>SERVICES</NavLinkStyled></li>
             <li><NavLinkStyled to="/gallery" onClick={() => setMenuOpen(false)}>GALLERY</NavLinkStyled></li>
             <li><NavLinkStyled to="/corporates" onClick={() => setMenuOpen(false)}>CORPORATES</NavLinkStyled></li>
