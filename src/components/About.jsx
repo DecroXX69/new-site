@@ -29,8 +29,8 @@ const ColumnContainer = styled.div`
 const ColumnStyled = styled.div`
   flex: 1; /* Allow columns to grow equally */
   text-align: left; /* Align text to the left */
-  color: #fff;
-  background: rgba(0, 0, 0, 0.7);
+  color:  rgba(0, 0, 0, 0.7);
+  background: rgba(240,188,94,0.7);
   padding: 20px; /* Increased padding for better spacing */
   border-radius: 10px;
   box-sizing: border-box;
@@ -51,7 +51,7 @@ const ColumnStyled = styled.div`
 
   h3 {
     margin: 10px 0;
-    color: #fff;
+    color:  rgba(0, 0, 0, 0.7);
     text-align: center; /* Center the header text */
     display: flex;
     align-items: center;
@@ -62,25 +62,25 @@ const ColumnStyled = styled.div`
   p {
     margin: 0;
     font-size: 18px;
-    color: #ccc;
+    color:  rgba(0, 0, 0, 0.7);
     text-align: center; /* Align text to the left */
     transition: color 0.3s ease; /* Smooth transition for color change */
   }
 
   &:hover {
-    background: #f6c298; /* Optional: Change background color on hover */
+    background:  rgba(0, 0, 0, 0.7); /* Optional: Change background color on hover */
     transition: 0.3s;
 
     .icon-container {
-      color: rgba(0, 0, 0, 0.7); /* Change icon color on hover */
+      color: rgba(240,188,94,0.7); /* Change icon color on hover */
     }
 
     h3 {
-      color: rgba(0, 0, 0, 0.7); /* Change header text color on hover */
+      color:rgba(240,188,94,0.7); /* Change header text color on hover */
     }
 
     p {
-      color: rgba(0, 0, 0, 0.7); /* Change paragraph text color on hover */
+      color: rgba(240,188,94,0.7); /* Change paragraph text color on hover */
     }
   }
 

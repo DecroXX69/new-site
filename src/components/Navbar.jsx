@@ -202,12 +202,12 @@ const NavLinkStyled = styled(NavLink).attrs({ activeClassName: 'active' })`
   transition: color 0.25s;
 
   &:hover {
-    color: #f6c298; /* Hover color */
+    color: #f0bc5e; /* Hover color */
     transition: color 0.2s;
   }
 
   &.active {
-    color: #f6c298; /* Active link color */
+    color: #f0bc5e; /* Active link color */
   }
 `;
 

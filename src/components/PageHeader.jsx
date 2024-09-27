@@ -36,7 +36,7 @@ const HeaderWrapper = styled.div`
     }
 
     h1 {
-        color: white;
+        color: #f0bc5e;
         font-size: 2.5rem; /* Adjust font size as needed */
         z-index: 1;
     }

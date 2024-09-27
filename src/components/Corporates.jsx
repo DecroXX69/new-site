@@ -11,7 +11,7 @@ const HeroImageSection = styled.section`
   background-size: cover;
   background-position: center;
   position: relative;
-  color: white;
+  color: #f0bc5e;
   text-align: center;
 
   &::before {

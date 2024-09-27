@@ -88,14 +88,14 @@ const ButtonContainer = styled.div`
   button {
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #f6c298;
+    background-color: #f0bc5e;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: #e3a67a;
+      background-color:rgba(240,188,9,255);
     }
 
     @media (max-width: 768px) {

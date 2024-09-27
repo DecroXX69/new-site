@@ -181,7 +181,7 @@ const FooterComponent = () => {
           <h4>Quick Links</h4>
           <ul>
             <li><Link className='footer-link' to="/">Home</Link></li>
-            <li><Link className='footer-link' to="/cources">Courses</Link></li>
+            <li><Link className='footer-link' to="/courses">Courses</Link></li>
             <li><Link className='footer-link' to="/about">About Us</Link></li>
             <li><Link className='footer-link' to="/blogs">Blogs</Link></li>
             <li><Link className='footer-link' to="/contact">Contact Us</Link></li>

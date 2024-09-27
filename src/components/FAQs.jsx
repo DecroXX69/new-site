@@ -97,10 +97,10 @@ const FAQs = () => {
 
 const Wrapper = styled.div`
     .accordion-button {
-        background-color: #f6c298;
+        background-color: #f0bc5e;
     }
     .accordion-button:not(.collapsed) {
-        background-color: #f6c298;
+        background-color: #f0bc5e;
     }
     .accordion-button:focus {
         box-shadow: none;

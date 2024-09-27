@@ -7,7 +7,7 @@ const EnquiryButton = styled.button`
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #f6c298;
+  background-color: #f0bc5e;
   color: white;
   padding: 10px;
   font-size: 16px;
@@ -152,7 +152,7 @@ const SubmitButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f6c298;
+  background-color: #f0bc5e;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -220,12 +220,20 @@ const EnquiryPopup = () => {
     }
   }, [showPopup]);
 
+  // Show first popup after 10 seconds and then every 90 seconds
   useEffect(() => {
-    const timer = setTimeout(() => {
+    const firstPopupTimer = setTimeout(() => {
       setShowPopup(true);
-    }, 5000); // Show popup after 10 seconds
+    }, 10000); // Show first popup after 10 seconds
 
-    return () => clearTimeout(timer); // Cleanup the timer on component unmount
+    const subsequentPopupTimer = setInterval(() => {
+      setShowPopup(true);
+    }, 90000); // Show subsequent popups every 90 seconds
+
+    return () => {
+      clearTimeout(firstPopupTimer); // Cleanup first timer
+      clearInterval(subsequentPopupTimer); // Cleanup subsequent timer
+    };
   }, []);
 
   const handleChange = (e) => {
@@ -244,7 +252,6 @@ const EnquiryPopup = () => {
       'target':'_blank',
       headers: {
         'Content-Type': 'application/json',
-        
       },
       body: JSON.stringify(formData),
     });

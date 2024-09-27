@@ -71,7 +71,7 @@ const HeroContent = styled.div`
   width: 100%;
   max-width: 800px; /* Limit width for better readability */
   text-align: left; /* Align text to the left */
-  color: #fff;
+  color:  #f0bc5e;
   padding: 20px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -108,7 +108,7 @@ const HeroContent = styled.div`
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     margin-bottom: 20px;
-    color: white;
+    color:  #f0bc5e;
 
     @media (max-width: 768px) {
       font-size: 1.3rem;
@@ -123,14 +123,14 @@ const HeroContent = styled.div`
     padding: 10px 20px;
     font-size: 1rem;
     color: #fff;
-    background-color: #f6c298;
+    background-color: #f0bc5e;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 
     &:hover {
-      background-color: #e3a67a;
+      background-color: rgba(240,188,9,255);
     }
 
     @media (max-width: 768px) {

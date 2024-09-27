@@ -67,6 +67,7 @@ const ContentBox = styled.div`
   border: 1px solid #ccc; /* Light gray border */
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  height: 250px;
 
   @media (max-width: 768px) {
     margin: 10px 0; /* Consistent margin between content boxes */
