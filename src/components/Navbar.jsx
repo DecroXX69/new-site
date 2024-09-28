@@ -93,7 +93,7 @@ const Nav = styled.nav`
 
           li a {
             text-decoration: none; /* Remove underline */
-            color: #f6c298; /* Change color */
+            color:rgba(240,188,9,255); /* Change color */
             transition: color 0.25s;
 
             &:hover {
@@ -268,6 +268,7 @@ const Navbar = () => {
             <li><NavLinkStyled to="/services" onClick={() => setMenuOpen(false)}>SERVICES</NavLinkStyled></li>
             <li><NavLinkStyled to="/gallery" onClick={() => setMenuOpen(false)}>GALLERY</NavLinkStyled></li>
             <li><NavLinkStyled to="/corporates" onClick={() => setMenuOpen(false)}>CORPORATES</NavLinkStyled></li>
+            <li><NavLinkStyled to="/parteners" onClick={()=> setMenuOpen(false)}>PARTENER US</NavLinkStyled></li>
             <li><NavLinkStyled to="/contact" onClick={() => setMenuOpen(false)}>CONTACT</NavLinkStyled></li>
           </ul>
         </Nav>

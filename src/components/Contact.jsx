@@ -106,7 +106,7 @@ const SubmitButton = styled.button`
   width: 50%;
   margin: 0 auto;
   padding: 8px;
-  background-color: rgb(160, 180, 200);
+  background-color: #f0bc5e;
   color: #121212;
   font-weight: 600;
   border: none;
@@ -114,7 +114,7 @@ const SubmitButton = styled.button`
   cursor: pointer;
   transition: background-color 0.3s;
   &:hover {
-    background-color: rgb(130, 150, 170);
+    background-color: rgba(240,188,9,255);
   }
 `;
 

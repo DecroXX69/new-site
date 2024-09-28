@@ -78,7 +78,7 @@ const Column = styled.div`
     transition: color 0.3s;
 
     &:hover {
-      color: #f6c298; /* Hover color */
+      color: #f0bc5e; /* Hover color */
     }
   }
   
@@ -152,7 +152,7 @@ const NewsletterForm = styled.form`
     font-size: 14px; /* Font size for button */
     
     &:hover {
-      background-color: #f6c298; /* Hover color */
+      background-color:#f0bc5e; /* Hover color */
     }
   }
 `;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Slider from 'react-slick';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { FaUsers, FaGraduationCap, FaMedal, FaUserTie } from 'react-icons/fa';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -12,10 +12,23 @@ import NumberCounter from './NumberCounter';
 import ApprovalsSlider from './ApprovalsSlider';
 import ContactUs from './ContactUs';
 import ServicesPage from '../subcomponents/ServicesPage';
+import { BenefitsSection } from './Parteners';
 
 
 const MainContainer = styled.div`
   font-family: 'Poppins', sans-serif;
+
+  .partenerButton{
+    
+    background-color: #f0bc5e ;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+    
+  }
 `;
 
 const HeroSection = styled.section`
@@ -145,6 +158,10 @@ const HeroContent = styled.div`
   }
 `;
 
+const HighlightedText = styled.span`
+  color: #f0bc5e;
+`;
+
 const Home = () => {
 
   useEffect(() => {
@@ -254,6 +271,12 @@ const Home = () => {
       <ApprovalsSlider/>
 
       <ContactUs/>
+
+
+        <h1 className='h1'>Partner<HighlightedText> With Us?</HighlightedText></h1>
+      <BenefitsSection/>
+
+      <button className='partenerButton' onClick={() => navigate('/parteners')}>Know More</button>
 
 
       

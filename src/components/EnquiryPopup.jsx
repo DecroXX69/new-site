@@ -18,6 +18,10 @@ const EnquiryButton = styled.button`
   writing-mode: vertical-rl;
   text-orientation: mixed;
 
+  &:hover{
+    background-color: rgba(240,188,9,255);
+  }
+
   @media (max-width: 768px) {
     padding: 8px;
     font-size: 22px;
@@ -161,7 +165,7 @@ const SubmitButton = styled.button`
   transition: background-color 0.3s ease-in-out;
 
   &:hover {
-    background-color: #0056b3;
+    background-color: rgba(240,188,9,255);
   }
 
   @media (max-width: 768px) {

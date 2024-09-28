@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   background-color: rgba(0, 0, 0, 0.7);
   padding: 50px 30px 50px 30px;
   height: 400px;
-  padding-top: 100px;
+  padding-top: 120px;
 
   @media (max-width: 768px) {
     padding: 50px 0;
@@ -64,7 +64,7 @@ const NumberCounter = () => {
       if (entry.isIntersecting && !animationStarted) {
         animateNumber(yearRef, 40, 5000);
         animateNumber(coursesRef, 25, 5000);
-        animateNumber(studentsRef, 2500, 5000);
+        animateNumber(studentsRef, 5000, 5000);
         animateNumber(institutionsRef, 15, 5000);
         setAnimationStarted(true);
       }
