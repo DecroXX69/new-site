@@ -82,6 +82,7 @@ const Box = styled.div`
 const BoxHeading = styled.h3`
   font-size: 20px;
   margin-bottom: 10px;
+  color: #333;
 `;
 
 const BoxText = styled.p`
@@ -308,7 +309,7 @@ const Partners = () => {
 
         <ContactSection>
           <h3>Want To Know More</h3>
-          <p>Write Us Mail on <span className='text-primary'>manoj@learnedges.com</span> OR Call on <span className='text-primary'>+91 77383 33543</span></p>
+          <p>Write Us Mail on <span className='text-primary'>bhaskar@learnedges.com</span> OR Call on <span className='text-primary'>+91 86691 66575</span></p>
         </ContactSection>
       </Section>
     </div>

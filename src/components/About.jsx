@@ -30,7 +30,7 @@ const ColumnStyled = styled.div`
   flex: 1; /* Allow columns to grow equally */
   text-align: left; /* Align text to the left */
   color:  rgba(0, 0, 0, 0.7);
-  background: rgba(240,188,94,0.7);
+  background: rgba(240,188,94);
   padding: 20px; /* Increased padding for better spacing */
   border-radius: 10px;
   box-sizing: border-box;

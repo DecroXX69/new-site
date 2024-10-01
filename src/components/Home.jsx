@@ -84,7 +84,7 @@ const HeroContent = styled.div`
   width: 100%;
   max-width: 800px; /* Limit width for better readability */
   text-align: left; /* Align text to the left */
-  color:  #f0bc5e;
+  color:  #fff;
   padding: 20px;
   border-radius: 10px;
   box-sizing: border-box;
@@ -121,7 +121,7 @@ const HeroContent = styled.div`
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     margin-bottom: 20px;
-    color:  #f0bc5e;
+    color:  #fff;
 
     @media (max-width: 768px) {
       font-size: 1.3rem;
@@ -271,12 +271,6 @@ const Home = () => {
       <ApprovalsSlider/>
 
       <ContactUs/>
-
-
-        <h1 className='h1'>Partner<HighlightedText> With Us?</HighlightedText></h1>
-      <BenefitsSection/>
-
-      <button className='partenerButton' onClick={() => navigate('/parteners')}>Know More</button>
 
 
       

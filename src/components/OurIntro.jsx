@@ -21,7 +21,7 @@ const partnersData = [
     id: 3,
     name: "Sachin Itkar",
     pose: "Advisor",
-    about: "Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration.Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration. He holds five patents to his credit in the area of Pharmaceutical packaging Technology. Written four books on 'Forensic Pharmacy' on 'Pharmaceutical Management' on 'Drug Regulatory Affairs' and on 'Essentials of Clinical Research”. He works as advisor / member of board of companies in India, Israel, USA. He was Advisor to Alliance for US India Business (AUSIB) 2009 to 2012 and was instrumental in organizing first Indo-US Education Conclave.",
+    about: "Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration. He holds five patents to his credit in the area of Pharmaceutical packaging Technology. Written four books on 'Forensic Pharmacy' on 'Pharmaceutical Management' on 'Drug Regulatory Affairs' and on 'Essentials of Clinical Research”. He works as advisor / member of board of companies in India, Israel, USA. He was Advisor to Alliance for US India Business (AUSIB) 2009 to 2012 and was instrumental in organizing first Indo-US Education Conclave.",
     image: "images/OurTeam/Sachin.jpeg" 
   },
   {
