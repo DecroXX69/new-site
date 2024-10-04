@@ -70,7 +70,7 @@ const CoursesTypes = ({ courseType }) => {
     const filteredCourses = ProgramsData.filter(program =>
         program.cources.some(course => course.courseType === courseType)
     );
-    const pageTitle = `${courseType} Courses`;
+    const pageTitle = `${courseType}`;
 
     return (
         <>

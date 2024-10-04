@@ -259,8 +259,8 @@ const Navbar = () => {
                 <NavLinkStyled to="#" onClick={() => setMenuOpen(false)}>COURSES</NavLinkStyled>
               </span>
               <ul className="dropdown-menu">
-                <li><Link to="/courses/post-graduation" onClick={() => setMenuOpen(false)}>Post Graduation</Link></li>
-                <li><Link to="/courses/graduation" onClick={() => setMenuOpen(false)}>Graduate</Link></li>
+                <li><Link to="/courses/post-graduation" onClick={() => setMenuOpen(false)}>Masters</Link></li>
+                <li><Link to="/courses/graduation" onClick={() => setMenuOpen(false)}>Degree</Link></li>
                 <li><Link to="/courses/executive-programs" onClick={() => setMenuOpen(false)}>Executive Programs</Link></li>
                 <li><Link to="/courses/corporate-training" onClick={() => setMenuOpen(false)}>Corporate Training</Link></li>
               </ul>

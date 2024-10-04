@@ -286,7 +286,7 @@ const Partners = () => {
             </Box>
             <Box className="hidden">Box 9</Box>
             <Box>
-              <BoxHeading>24*365 Support</BoxHeading>
+              <BoxHeading>Support</BoxHeading>
               <BoxText>
                 Innovative technology support and continuous assistance by Team CV.
               </BoxText>
