@@ -347,7 +347,7 @@
                 "courceName" : "Executive Post Graduate Programme",
                 "duration":"2 Years",
                 "details" : "PGP is a two-year, six-term programme. The first-year courses (term I to III) are aimed at building the foundations of the PGP. Hence, all students are required to complete all the first-year courses successfully.  These courses are designed to provide the basic conceptual knowledge and analytical tools in different disciplines and functional areas of management. Uniquely, the first-year curriculum also consists of courses that aim at inculcating a sense of ethical consciousness and social responsibility. The first-year core curriculum is compulsory, and the list of various courses is as follows:",
-                "fees":"",
+                "fees":"₹ 15,30,000",
                 "programStructure":[
                     {
                         "sem": "Term 1",
@@ -485,16 +485,131 @@
     },
     {
         "id": "6",
-        "image": "images/universities/executiveprogram.jpg",
-        "name":"Executive Programs",
+        "image": "images/universities/iimkozikode.jpg",
+        "name": "Indian Institute of Management, Kozhikode",
         "cources": [
             {
                 "courseType": "Executive Program",
-                "courceName" : "Online Masters in Business Administration",
-                "duration":"2 Years"
+                "courceName" : "Fintech and Blockchain",
+                "duration":"11 Months",
+                "details" : "In today’s rapidly evolving financial landscape, understanding and leveraging financial technology (FinTech) is essential for career growth and success. IIM Kozhikode’s Professional Certificate Programme in FinTech offers a comprehensive and practical curriculum designed to equip participants with the requisite skills like financial modelling, blockchain, and cryptocurrency and the expertise to navigate the security challenges of this dynamic industry.",
+                "fees":"₹ 1,95,000"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "image": "images/universities/iimkozikode.jpg",
+        "name": "Indian Institute of Management, Kozhikode",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Business Management",
+                "duration":"12 Months",
+                "details" : "IIM Kozhikode’s Professional Certificate Programme in Business Management is designed to provide participants with a robust foundation in the principles and practices of business management. The curriculum is meticulously crafted to cover essential aspects of management, including marketing, finance, operations, and human resources, ensuring a holistic understanding of the business environment. Additionally, the programme leverages IIM Kozhikode’s renowned faculty, offering participants insights from their expertise, which brings a blend of academic rigour and real-world experience.",
+                "fees":"₹ 2,55,000"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "image": "images/universities/IIMcalcutta.png",
+        "name": "Indian Institute of Management, Calcutta",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Senior Leadership Programme for CXOs",
+                "duration":"12 Months",
+                "details" : "IIM Calcutta’s LEAD Senior Leadership Programme is tailored for senior executives and business owners seeking to refresh their business acumen, enhance leadership skills, and drive organizational success. The programme blends leadership development with strategic and macroeconomic insights, equipping leaders to navigate disruptions and foster sustainable change.",
+                "fees":"₹ 8,95,000"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "image": "images/universities/IIMcalcutta.png",
+        "name": "Indian Institute of Management, Calcutta",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Executive Programme in Business Management",
+                "duration":"12 Months",
+                "details" : "The Executive Programme in Business Management (EPBM) equips you with the skills and knowledge needed to transition from a functional expert to a business leader. In just 12 months, you’ll gain practical, industry-ready skills to navigate today’s fast-paced business environment. The curriculum covers complex socio-economic, environmental, and ethical challenges, with a focus on personal and professional growth through hands-on activities, business simulations, and insights from industry experts.",
+                "fees":"₹ 6,72,000"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "image": "images/universities/IIMcalcutta.png",
+        "name": "Indian Institute of Management, Calcutta",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Executive Programme In Applied Finance",
+                "duration":"12 Months",
+                "details" : "The Executive Programme in Applied Finance (EPAF) at IIM Calcutta equips you with cutting-edge finance knowledge through a blend of online and on-campus learning. In just 12 months, you’ll gain expertise in specialized finance fields like corporate finance, banking, alternative investments, and risk management.",
+                "fees":"₹ 4,05,000"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "image": "images/universities/IIMindore.avif",
+        "name": "Indian Institute of Management, Indore",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Executive Certificate Programme in Strategy and Leadership for Senior Professionals",
+                "duration":"12 Months",
+                "details" : "This programme is specifically designed to empower senior professionals with the indispensable capabilities required to navigate and excel in a world marked by heightened uncertainty and volatility. It goes beyond by expanding their insights into emerging technologies and trends, honing their leadership skills, and facilitating the application of their enhanced knowledge within their organisational contexts.",
+                "fees":"₹ 2,90,000"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "image": "images/universities/IIMindore.avif",
+        "name": "Indian Institute of Management, Indore",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Executive Programme in Digital Transformation",
+                "duration":"12 Months",
+                "details" : "This programme is a focused initiative designed to equip business leaders with the knowledge and skills necessary to navigate the complexities of the digital landscape. Through practical learning modules and case studies, participants gain insights into leveraging digital technologies to drive innovation, enhance operations, and achieve strategic objectives.",
+                "fees":"₹ 2,40,000 "
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "image": "images/universities/IIMnagpur.webp",
+        "name": "Indian Institute of Management, Nagpur",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Senior Management Programme",
+                "duration":"12 Months",
+                "details" : "Embark on a transformative journey with the Senior Management Programme (SMP) at IIM Nagpur, designed to catapult seasoned professionals to the zenith of their careers. Designed to equip participants with the acumen and agility required to navigate the complexities of today’s business landscape, SMP offers a comprehensive blend of theoretical frameworks, industry best practices, and experiential learning opportunities. Through immersive sessions led by esteemed faculty and industry experts, participants delve into cutting-edge concepts, dissect real-world case studies, and engage in spirited discussions aimed at fostering critical thinking and strategic foresight.",
+                "fees":"₹ 3,55,000"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "image": "images/universities/IIMVisakhapatnam.jpg",
+        "name": "Indian Institute of Management, Visakhapatnam",
+        "cources": [
+            {
+                "courseType": "Executive Program",
+                "courceName" : "Executive Master of Business Administration",
+                "duration":"24 Months",
+                "details" : "The IIM Vizag Executive MBA program is designed for working professionals to enhance management skills while advancing in their careers. In the first year, you’ll cover key areas like Marketing, Finance, and Strategy, with both core and elective courses, including Project Management and Business Ethics. The curriculum emphasizes practical application and data analysis to support strategic decision-making and interdisciplinary learning.",
+                "fees":"₹ 10,40,000"
             }
         ]
     }
+    
     
     
 

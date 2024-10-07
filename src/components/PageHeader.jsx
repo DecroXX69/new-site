@@ -29,7 +29,7 @@ const HeaderWrapper = styled.div`
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
+        background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
         display: flex;
         align-items: center;
         justify-content: center;

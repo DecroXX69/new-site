@@ -6,7 +6,7 @@ const partnersData = [
   {
     id: 1,
     name: "Bhaskar Margaj",
-    pose: "Chief Executive Officer (CEO), Proffesor Practise(Pimpri-Chinchwad University)",
+    pose: "Chief Executive Officer (CEO), Professor Practise(Pimpri-Chinchwad University)",
     about: "Hailing from Pune, Bhaskar is a commerce and management graduate by qualification and has a rich and diverse experience of above 18+ years in the education Industry across its entire value chain and has worked for various prominent brands such as FLAME University, ICFAI University, Genovate India, Seed Infotech, Wigan & Leigh (Affiliated To Wigan & Leigh, United Kingdom), Talentedge (An Upgrad Company) to name a few. He’s worked very closely with the C-Suite executives, University Vice Chancellor’s, Director's, renowned academicians, social reformers, political reformers, and eminent personalities in India to transform student’s educational journey and his life experience and today there are countless students who are torchbearers of various responsible corporate and academic sectors. he has achieved proven quantifiable and verifiable results and has developed immense goodwill with students, universities, colleges, institutes, schools, and the corporate community.",
     image: "images/OurTeam/Bhaskar.jpg"
   },
@@ -21,7 +21,7 @@ const partnersData = [
     id: 3,
     name: "Sachin Itkar",
     pose: "Advisor",
-    about: "Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration. He holds five patents to his credit in the area of Pharmaceutical packaging Technology. Written four books on 'Forensic Pharmacy' on 'Pharmaceutical Management' on 'Drug Regulatory Affairs' and on 'Essentials of Clinical Research”. He works as advisor / member of board of companies in India, Israel, USA. He was Advisor to Alliance for US India Business (AUSIB) 2009 to 2012 and was instrumental in organizing first Indo-US Education Conclave.•	He is a recipient of the 'Young Achievers Award' & special appreciation award 'Maharashtra – 50' in youth category for contribution in industry-socio-education activities 2011.Working on committees of various organisations like Alliance for US-India Business (AUSIB), Indian Drug Manufacturers Association (IDMA), Indian Pharmaceutical Association (IPA) etc to name a few.",
+    about: "Mr. Itkar is a graduate pharmacist and a postgraduate with distinction, in management studies, M.Phil degree in Intellectual Property Management & MSc in Healthcare & Hospital Administration. He holds five patents to his credit in the area of Pharmaceutical packaging Technology. Written four books on 'Forensic Pharmacy' on 'Pharmaceutical Management' on 'Drug Regulatory Affairs' and on 'Essentials of Clinical Research”. He works as advisor / member of board of companies in India, Israel, USA. He was Advisor to Alliance for US India Business (AUSIB) 2009 to 2012 and was instrumental in organizing first Indo-US Education Conclave.He is a recipient of the 'Young Achievers Award' & special appreciation award 'Maharashtra – 50' in youth category for contribution in industry-socio-education activities 2011.Working on committees of various organisations like Alliance for US-India Business (AUSIB), Indian Drug Manufacturers Association (IDMA), Indian Pharmaceutical Association (IPA) etc to name a few.",
     image: "images/OurTeam/Sachin.jpeg" 
   },
   {

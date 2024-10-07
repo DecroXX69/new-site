@@ -29,19 +29,18 @@ const GalleryGrid = styled.div`
   align-items: center; /* Centers items vertically */
 
   @media (max-width: 768px) {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Smaller screen adjustments */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Smaller screen adjustments */
   }
 
   @media (max-width: 480px) {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Further smaller screen adjustments */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Further smaller screen adjustments */
   }
 `;
 
-
 const GalleryImage = styled(LazyLoadImage)`
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area, maintaining aspect ratio */
   border-radius: 8px; /* Optional: Adds rounded corners */
 `;
 
@@ -51,7 +50,7 @@ const Gallery = () => {
     document.title = "Learnedge - Gallery";
     window.scrollTo(0, 0);
   }, []);
-  
+
   // Grouped images by events
   const events = {
     "Learnedge Brand Launching Event": [
@@ -65,7 +64,6 @@ const Gallery = () => {
       "images/Gallery/rot23.jpeg",
       "images/Gallery/rot24.jpeg",
       "images/Gallery/rot28.jpeg",
-      "images/Gallery/rot40.jpeg",
       "images/Gallery/rot41.jpeg"
     ],
     "Office Celebrations": [
@@ -97,7 +95,6 @@ const Gallery = () => {
       "images/Gallery/rot45.jpeg",
       "images/Gallery/rot46.jpeg",
       "images/Gallery/rot47.jpeg",
-      
     ],
     "Corporate Office": [
       "images/Gallery/rot9.jpg",

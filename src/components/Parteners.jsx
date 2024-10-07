@@ -243,7 +243,7 @@ const Partners = () => {
 
   return (
     <div>
-      <PageHeader title="PARTNERS" image={"images/hero/hero2.webp"} />
+      <PageHeader title="PARTNERS" image={"images/hero1.webp"} />
       <Section>
         <Title>
           Why Partner<HighlightedText> With Us?</HighlightedText>
@@ -267,9 +267,9 @@ const Partners = () => {
             </Box>
             <Box className="hidden">Box 4</Box>
             <Box>
-              <BoxHeading>Zero Investment</BoxHeading>
+              <BoxHeading>Minimum Investment</BoxHeading>
               <BoxText>
-                Opportunity to add product offerings at zero cost, hence, an ability to cater to all customer needs.
+                Opportunity to add product offerings at Low cost, hence, an ability to cater to all customer needs.
               </BoxText>
             </Box>
             <Box className="hidden">Box 6</Box>
