@@ -13,6 +13,7 @@ import ApprovalsSlider from './ApprovalsSlider';
 import ContactUs from './ContactUs';
 import ServicesPage from '../subcomponents/ServicesPage';
 import { BenefitsSection } from './Parteners';
+import Branches from './Branches';
 
 
 const MainContainer = styled.div`
@@ -196,7 +197,7 @@ const Home = () => {
     },
     {
       header: "Gain a competitive Edge with our Online Programs",
-      subHeader: "Learnedge is India's fastest-growing educational company that is committed to providing high-quality education to students and professionals!"
+      subHeader: "Learnedge is India's fastest-growing EdTech company that is committed to providing high-quality education to students and professionals!"
     },
     {
       header: "Join India's Top Rated IIM's Executive and Degree Programs",
@@ -271,6 +272,8 @@ const Home = () => {
       <ApprovalsSlider/>
 
       <ContactUs/>
+
+      <Branches/>
 
 
       

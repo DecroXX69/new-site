@@ -10,7 +10,7 @@ const AboutText = () => {
             <div className="col-md-6 p-4">
               <h1 className='h1 text-center' style={{ color: '#020F55' }}>About Us</h1>
               <p className='fs-30'>
-                At Learnedge, we partner with premiere institutions that have proven legacies, experienced and knowledgeable faculty from IIM’s/IIT’s, world class infrastructure, notable alumni, and are technology driven in the online education platform. Providing quality education for students and working professionals to not only enhance their individual growth but also enable them to be thought leaders of tomorrow is what we strive for. We believe in empowering learners with the right tools to excel in their chosen fields and make a positive impact on the global stage.
+              Learnedge Solutions is a leading EdTech company committed to providing high-quality, innovative online education. We empower students and professionals with industry-recognized programs from top universities, fostering career growth and lifelong learning. Join us to unlock your full potential with flexible, future-ready courses. We believe in empowering learners with the right tools to excel in their chosen fields and make a positive impact on the global stage.
               </p>
             </div>
             <div className="col-md-6 p-4">
