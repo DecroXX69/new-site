@@ -169,6 +169,7 @@ const FooterComponent = () => {
           </FooterLogo>
           <div>
             <p>Learnedge Solutions Pvt. Ltd.</p>
+            <p>An EdTech Company</p>
             <p>
               Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's<br />
               Near Shivar Garden, Pimple Saudagar<br />

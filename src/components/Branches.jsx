@@ -42,16 +42,30 @@ const BranchesSection = styled.section`
       font-size: 1rem;
       color: #555;
     }
+
+    .contact-info {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #555;
+
+      a {
+        color: #f0bc5e;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 `;
 
 const branches = [
-  { name: "Pune", address: "123 Marine Drive, Mumbai" },
-  { name: "Mumbai", address: "456 Connaught Place, Delhi" },
-  { name: "Chennai", address: "789 MG Road, Bangalore" },
-  { name: "Hyderabad", address: "321 FC Road, Pune" },
-  { name: "Dubai", address: "654 Jubilee Hills, Hyderabad" },
-  { name: "Muskat", address: "654 Jubilee Hills, Hyderabad" }
+  { name: "Pune", address: "Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's Near Shivar Garden, Pimple Saudagar, Pune, Maharashtra", contact: "+91 86691 66575"  },
+  { name: "Muscat", address: "Villa No 12, Way No 3331, PO Box 19, Muscat 100, Oman", contact: "+968 99866458", link: "https://oman.learnedges.com" },
+  { name: "Mumbai"},
+  { name: "Hyderabad"},
+  { name: "Chennai" },
+  { name: "Dubai"}
 ];
 
 const Branches = () => {
@@ -63,6 +77,12 @@ const Branches = () => {
           <div className="branch" key={index}>
             <h3>{branch.name}</h3>
             <p>{branch.address}</p>
+            <div className="contact-info">
+              {branch.contact && <p>Contact: {branch.contact}</p>}
+              {branch.name === "Muscat" && (
+                <a href={branch.link} target="_blank" rel="noopener noreferrer">Know More</a>
+              )}
+            </div>
           </div>
         ))}
       </div>
