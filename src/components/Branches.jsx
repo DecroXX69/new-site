@@ -62,9 +62,9 @@ const BranchesSection = styled.section`
 const branches = [
   { name: "Pune", address: "Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's Near Shivar Garden, Pimple Saudagar, Pune, Maharashtra", contact: "+91 86691 66575"  },
   { name: "Muscat", address: "Villa No 12, Way No 3331, PO Box 19, Muscat 100, Oman", contact: "+968 99866458", link: "https://oman.learnedges.com" },
-  { name: "Mumbai"},
+  { name: "Mumbai", address: "A 901, RAJSHREE TOWERS NEAR PRATAP CINEMA, KOLBAD, THANE WEST, MUMBAI, 400601", contact:"+91 77383 33543"},
+  { name: "Chennai", address: "Domnic Vijay 1696,H Block,5th Street, Annanagar West, Chennai, Tamilnadu - 600040", contact: "+91 73388 23513 / 8056666902" },
   { name: "Hyderabad"},
-  { name: "Chennai" },
   { name: "Dubai"}
 ];
 
