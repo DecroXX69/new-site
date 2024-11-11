@@ -64,7 +64,7 @@ const branches = [
   { name: "Muscat", address: "Villa No 12, Way No 3331, PO Box 19, Muscat 100, Oman", contact: "+968 99866458", link: "https://oman.learnedges.com" },
   { name: "Mumbai", address: "A 901, RAJSHREE TOWERS NEAR PRATAP CINEMA, KOLBAD, THANE WEST, MUMBAI, 400601", contact:"+91 77383 33543"},
   { name: "Chennai", address: "Domnic Vijay 1696,H Block,5th Street, Annanagar West, Chennai, Tamilnadu - 600040", contact: "+91 73388 23513 / 8056666902" },
-  { name: "Hyderabad"},
+  { name: "Hyderabad", address: "Janapriya Pramila Enclave Uma Nagar, Begumpet, Hyderabad - 500016, Telangana, India, contact: "+91 9394539593" },
   { name: "Dubai"}
 ];
 
