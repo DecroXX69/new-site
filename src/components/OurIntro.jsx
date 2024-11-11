@@ -6,7 +6,7 @@ const partnersData = [
   {
     id: 1,
     name: "Bhaskar Margaj",
-    pose: "Chief Executive Officer (CEO), Professor Practise (Pimpri-Chinchwad University)",
+    pose: "Chief Executive Officer (CEO), Professor of Practice (Pimpri-Chinchwad University)",
     about: "Hailing from Pune, Bhaskar is a commerce and management graduate by qualification and has a rich and diverse experience of above 18+ years in the education Industry across its entire value chain and has worked for various prominent brands such as FLAME University, ICFAI University, Genovate India, Seed Infotech, Wigan & Leigh (Affiliated To Wigan & Leigh, United Kingdom), Talentedge (An Upgrad Company) to name a few. He’s worked very closely with the C-Suite executives, University Vice Chancellor’s, Director's, renowned academicians, social reformers, political reformers, and eminent personalities in India to transform student’s educational journey and his life experience and today there are countless students who are torchbearers of various responsible corporate and academic sectors. he has achieved proven quantifiable and verifiable results and has developed immense goodwill with students, universities, colleges, institutes, schools, and the corporate community.",
     image: "images/OurTeam/Bhaskar.jpg"
   },
