@@ -60,12 +60,39 @@ const BranchesSection = styled.section`
 `;
 
 const branches = [
-  { name: "Pune", address: "Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's Near Shivar Garden, Pimple Saudagar, Pune, Maharashtra", contact: "+91 86691 66575"  },
-  { name: "Muscat", address: "Villa No 12, Way No 3331, PO Box 19, Muscat 100, Oman", contact: "+968 99866458", link: "https://oman.learnedges.com" },
-  { name: "Mumbai", address: "A 901, RAJSHREE TOWERS NEAR PRATAP CINEMA, KOLBAD, THANE WEST, MUMBAI, 400601", contact:"+91 77383 33543"},
-  { name: "Chennai", address: "Domnic Vijay 1696,H Block,5th Street, Annanagar West, Chennai, Tamilnadu - 600040", contact: "+91 73388 23513 / 8056666902" },
-  { name: "Hyderabad", address: "Janapriya Pramila Enclave Uma Nagar, Begumpet, Hyderabad - 500016, Telangana, India", contact: "+91 9394539593" },
-  { name: "Dubai"}
+  {
+    name: "Pune",
+    address:
+      "Office No.308, 3rd Floor, Rainbow Plaza, above McDonald's Near Shivar Garden, Pimple Saudagar, Pune, Maharashtra",
+    contact: "+91 86691 66575",
+  },
+  {
+    name: "Muscat",
+    address: "Villa No 12, Way No 3331, PO Box 19, Muscat 100, Oman",
+    contact: "+968 99866458",
+    link: "https://oman.learnedges.com",
+  },
+  {
+    name: "Mumbai",
+    address:
+      "A 901, RAJSHREE TOWERS NEAR PRATAP CINEMA, KOLBAD, THANE WEST, MUMBAI, 400601",
+    contact: "+91 77383 33543",
+  },
+  {
+    name: "Chennai",
+    address:
+      "Domnic Vijay 1696,H Block,5th Street, Annanagar West, Chennai, Tamilnadu - 600040",
+    contact: "+91 73388 23513 / 8056666902",
+  },
+  {
+    name: "Hyderabad",
+    address:
+      "Janapriya Pramila Enclave Uma Nagar, Begumpet, Hyderabad - 500016, Telangana, India",
+    contact: "+91 9394539593",
+  },
+  { name: "Dubai", 
+    address: "School Support Project Management Services Co (SSP), UAE",
+    link: "https://uae.learnedges.com" },
 ];
 
 const Branches = () => {
@@ -76,11 +103,13 @@ const Branches = () => {
         {branches.map((branch, index) => (
           <div className="branch" key={index}>
             <h3>{branch.name}</h3>
-            <p>{branch.address}</p>
+            {branch.address && <p>{branch.address}</p>}
             <div className="contact-info">
               {branch.contact && <p>Contact: {branch.contact}</p>}
-              {branch.name === "Muscat" && (
-                <a href={branch.link} target="_blank" rel="noopener noreferrer">Know More</a>
+              {branch.link && (
+                <a href={branch.link} target="_blank" rel="noopener noreferrer">
+                  Know More
+                </a>
               )}
             </div>
           </div>

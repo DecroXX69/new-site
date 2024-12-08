@@ -17,6 +17,7 @@ import Carporates from './components/Corporates.jsx';
 import Corporates from './components/Corporates.jsx';
 import CourseDetails from './components/CourceDetails.jsx';
 import CoursesTypes from './components/CourseTypes.jsx';
+import Popup2 from './subcomponents/Popup2.jsx';
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <Navbar />
       <EnquiryPopup />
+      <Popup2/>
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
